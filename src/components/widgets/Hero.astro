@@ -1,0 +1,31 @@
+---
+import { Icon } from 'astro-icon';
+import Picture from '~/components/core/Picture.astro';
+---
+
+<section>
+	<div class="max-w-6xl mx-auto px-4 sm:px-6">
+		<div class="py-12 md:py-20">
+			<div>
+				<div class="relative mb-5 m-auto max-w-xs">
+					<Picture
+						src={import('/public/krido.jpg')}
+						class="mx-auto rounded-full shadow-lg bg-gray-400 dark:bg-slate-700 w-full"
+						widths={[400, 768]}
+						sizes=" (max-width: 767px) 400px, 768px"
+						alt="yuxxeun cute avatar"
+						aspectRatio="1:1"
+					/>
+				</div>
+			</div>
+			<div class="text-center pb-10 md:pb-16">
+				<h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
+					yuxxeun®
+				</h1>
+				<div class="max-w-3xl mx-auto">
+					<p class="text-xl text-gray-600 mb-8 dark:text-slate-400">thoughts, stories and ideas</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
