@@ -1,9 +1,7 @@
 export const SITE = {
 	name: 'yuxxeun®',
-
 	origin: 'https://yuxxeun.now.sh',
 	basePathname: '/',
-
 	title: 'yuxxeun®',
 	description: 'thoughts, stories and ideas',
 
