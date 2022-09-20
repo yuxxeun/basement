@@ -1,5 +1,5 @@
 {
-  "name": "@yuxxeun/cherry",
+  "name": "@yuxxeun/honeypod",
   "description": "thoughts, stories and ideas",
   "version": "0.1.69",
   "private": true,
@@ -11,7 +11,8 @@
     "astro": "astro",
     "format": "prettier -w .",
     "lint:eslint": "eslint . --ext .js,.ts,.astro",
-    "subfont": "subfont -ir --no-fallbacks --silent --root dist"
+    "subfont": "subfont -ir --no-fallbacks --silent --root dist",
+    "svelte-check": "svelte-check"
   },
   "devDependencies": {
     "@astrojs/image": "^0.7.0",
@@ -39,5 +40,10 @@
   },
   "engines": {
     "node": "^14.15.0 || >=16.0.0"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^1.0.0",
+    "@supabase/supabase-js": "^1.35.6",
+    "svelte": "^3.50.1"
   }
 }
