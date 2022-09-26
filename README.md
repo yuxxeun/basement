@@ -1,4 +1,4 @@
-## Getting started
+## Let's dive in
 
 ### Project structure
 
@@ -52,8 +52,6 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
 
-[![Edit AstroWind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/astrowind/tree/main)
-
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 <br>
@@ -95,7 +93,7 @@ export const BLOG = {
 
   blog: {
     disabled: false,
-    pathname: 'blog', // blog main path, you can change this to "articles" (/articles)
+    pathname: 'readme', // blog main path, you can change this to "articles" (/articles)
   },
 
   post: {
@@ -133,17 +131,11 @@ Now, your website is ready to be deployed. All generated files are located at
 `dist` folder, which you can deploy the folder to any hosting service you
 prefer.
 
-#### Deploy to Netlify
-
-Clone this repository on own GitHub account and deploy to Netlify:
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/astrowind)
-
 #### Deploy to Vercel
 
-Clone this repository on own GitHub account and deploy to Vercel:
+Clone this repository from this GitHub account and deploy to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fastrowind)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyuxxeun%2Fhoneypod)
 
 
 <br>
@@ -158,7 +150,7 @@ Clone this repository on own GitHub account and deploy to Vercel:
   - Make the use of images clean and intuitive
 - *SEO*:
   - **(DONE)** Add support to easily manage SEO meta-tags (title, description, canonical, social sharing, ...)
-- *Blog*:
+- *Blog (readme)*:
   - **(DONE)** Support to Fast and SEO friendly blog
   - **(DONE)** Add support for categories and tags.
   - Improve blog design
@@ -176,11 +168,7 @@ Clone this repository on own GitHub account and deploy to Vercel:
 ## Contributing
 
 If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request. 
-That would be very useful for all of us and we would be happy to listen and take action.
-
-## Acknowledgements
-
-Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/astrowind/graphs/contributors).
+That would be very useful for me personally and i would be happy to listen and take action.
 
 ## License
-**cherry** is licensed under the MIT license — see the [LICENSE](https://github.com/yuxxeun/cherry/blob/main/LICENSE.md) file for details.
+**honeypod** is licensed under the MIT license, why not, of course — see the [LICENSE](https://github.com/yuxxeun/honeypod/blob/main/LICENSE.md) file for details.
