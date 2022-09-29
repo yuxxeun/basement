@@ -1,7 +1,7 @@
 {
   "name": "@yuxxeun/honeypod",
   "description": "thoughts, stories and ideas",
-  "version": "0.1.69",
+  "version": "0.1.33",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -42,8 +42,7 @@
     "node": "^14.15.0 || >=16.0.0"
   },
   "dependencies": {
-    "@astrojs/svelte": "^1.0.0",
     "@supabase/supabase-js": "^1.35.6",
-    "svelte": "^3.50.1"
+    "moment": "^2.29.4"
   }
 }

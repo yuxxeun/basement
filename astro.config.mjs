@@ -6,7 +6,6 @@ import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
 import partytown from '@astrojs/partytown';
 import { SITE } from './src/config.mjs';
-import svelte from '@astrojs/svelte';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -29,7 +28,6 @@ export default defineConfig({
 				forward: ['dataLayer.push'],
 			},
 		}),
-		svelte(),
 	],
 	vite: {
 		resolve: {

@@ -1,5 +1,6 @@
 ---
 import { Icon } from 'astro-icon';
+import moment from 'moment';
 import { getHomePermalink } from '~/utils/permalinks';
 ---
 
@@ -7,15 +8,15 @@ import { getHomePermalink } from '~/utils/permalinks';
 	<div class="max-w-6xl x-10 mx-auto px-4 sm:px-6">
 		<div class="md:flex md:items-center md:justify-between py-6 md:py-8">
 			<ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
-				<!-- <li>
+				<li>
 					<a
 						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
 						aria-label="Twitter"
-						href="https://twitter.com/yuxxeun"
+						href="/bookmarks"
 					>
-						<Icon name="tabler:brand-twitter" class="w-5 h-5" />
+						<Icon name="tabler:bookmarks" class="w-5 h-5 ghost-pink" />
 					</a>
-				</li> -->
+				</li>
 				<li>
 					<a
 						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
@@ -35,9 +36,10 @@ import { getHomePermalink } from '~/utils/permalinks';
 					</a>
 				</li>
 			</ul>
-			<div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
-				33 —— inside @ evangelizt &bull; <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a
-				> &bull; driven by the desire to write non-standard & meaningful experiences
+			<div class="text-sm tracking-wider text-gray-700 mr-4 dark:text-slate-400">
+				{moment().format('ddd, Do MMM YY')} &#124; <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+					>CC BY-NC-SA 4.0</a
+				> &#124; MAKING COOL SHIT THAT PERFORMS.
 			</div>
 		</div>
 	</div>

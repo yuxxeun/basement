@@ -4,7 +4,7 @@ import { GoogleAnalytics } from '@astrolib/analytics';
 import { getImage } from '@astrojs/image';
 import { getRelativeUrlByFilePath } from '~/utils/directories';
 
-import defaultImageSrc from '~/assets/images/default.png';
+import defaultImageSrc from '~/assets/images/gradient.jpg';
 
 import { SITE } from '~/config.mjs';
 import Fonts from '../atoms/Fonts.astro';
@@ -39,6 +39,12 @@ const image =
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content={SITE.URL}>
+<meta name="twitter:creator" content={SITE.name}>
+<meta name="twitter:title" content={SITE.title}>
+<meta name="twitter:description" content={SITE.description}>
+<meta name="twitter:image" content={defaultImage}>
 
 <AstroSeo
 	title={title}
@@ -62,7 +68,7 @@ const image =
 		site_name: 'yuxxeun®',
 	}}
 	twitter={{
-		handle: '@yuxxeun',
+		handle: 'yuxxeun®',
 		site: 'https://yuxxeun.now.sh',
 		cardType: image ? 'summary_large_image' : undefined,
 	}}
