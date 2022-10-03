@@ -4,6 +4,7 @@ export const SITE = {
 	basePathname: '/',
 	title: 'yuxxeun®',
 	description: 'thoughts, stories and ideas',
+	image: 'https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/gradient.jpg?raw=true',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
 	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
@@ -25,11 +26,11 @@ export const BLOG = {
 
 	category: {
 		disabled: false,
-		pathname: 'category', // set empty to change from /category/some-category to /some-category
+		pathname: '', // set empty to change from /category/some-category to /some-category
 	},
 
 	tag: {
 		disabled: false,
-		pathname: 'tag', // set empty to change from /tag/some-tag to /some-tag
+		pathname: '', // set empty to change from /tag/some-tag to /some-tag
 	},
 };
