@@ -3,8 +3,8 @@ pubDate: "Sep 25 2022"
 title: "Banyak tahu itu berbahaya"
 description: "Sometimes silence is gold, indeed."
 excerpt: "Sometimes silence is gold, indeed"
-image: "~/assets/images/tools.jpg"
-tags: [something, thoughts]
+image: "~/assets/images/gradient.jpg"
+tags: [thoughts]
 ---
 
 Dalam mempelajari sesuatu, tidak jarang kita mempertanyakan apa yang ingin dicapai setelah mempelajari sesuatu tersebut. Entah sekadar untuk kepentingan ujian, kepentingan pribadi, ataupun bekal untuk praktik.
@@ -108,7 +108,7 @@ Proses unlearn ini sederhananya adalah sebuah proses dimana kita "melupakan" seb
 
 Ketika 2020, gue selalu memilih Nginx dalam menentukan Reverse Proxy karena selain high performance juga gue cukup hafal dengan sintaksnya. Lalu gue mempelajari hal baru, ada reverse proxy lain seperti Caddy dan Traefik khususnya di era container seperti sekarang. Proses penerimaan teknologi baru tersebut relatif sulit bagi gue. Misal, di fitur provision TLS certs. Gue exactly bisa melakukan apa yang bisa dilakukan di Caddy namun bedanya bila gue biasanya melakukannya secara manual (via certbot) kalau pakai Nginx, di Caddy, itu dilakukan secara otomatis. Dan gue tidak keberatan dengan hal itu.
 
-Namun seiring berjalan waktu, gue tahu bahwa Caddy lebih relevan daripada Nginx (ataupun Traefik) jika melihat kebutuhan gue. Perlahan gue melupakan beberapa hal. Pertama, gue melupakan kalau provision TLS certs itu harus manual. Kedua, gue melupakan kalau membuat konfigurasi itu tidak harus sekompleks Nginx. Ketiga, gue melupakan kalau beberapa hal itu tidak harus dilakukan secara manual (seperti provide x-forwarded-host dan host explicitly).
+Namun seiring dengan berjalannya waktu, gue tahu bahwa Caddy lebih relevan daripada Nginx (ataupun Traefik) jika melihat kebutuhan gue. Perlahan gue melupakan beberapa hal. Pertama, gue melupakan kalau provision TLS certs itu harus manual. Kedua, gue melupakan kalau membuat konfigurasi itu tidak harus sekompleks Nginx. Ketiga, gue melupakan kalau beberapa hal itu tidak harus dilakukan secara manual (seperti provide x-forwarded-host dan host explicitly).
 
 Dan PR yang lumayan berat dalam kasus gue diatas adalah menghiraukan Traefik. Sebelumnya gue selalu membandingkan perbedaan Caddy dan Traefik, Pro Cons nya, dsb. Gue selalu merasa yakin kalau yang gue butuhkan adalah Traefik bukan Caddy.
 

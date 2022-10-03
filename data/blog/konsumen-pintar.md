@@ -3,8 +3,8 @@ pubDate: "March 25 2022"
 title: "Menjadi Konsumen Pintar"
 description: "Konsumtif, less produktif, at least worth."
 excerpt: "Konsumtif, less produktif, at least worth."
-# image: "~/assets/images/tools.jpg"
-tags: [life]
+image: "~/assets/images/gradient.jpg"
+tags: [thoughts]
 ---
 
 

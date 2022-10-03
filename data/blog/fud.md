@@ -4,7 +4,7 @@ title: "Fear. Uncertainty. Doubt."
 description: "As title said."
 excerpt: "Setidaknya ada 3 hal yang manusia benci baik sadar maupun tidak sadar."
 image: "~/assets/images/gradient.jpg"
-tags: [life]
+tags: [thoughts]
 ---
 
 Setidaknya ada 3 hal yang manusia benci baik sadar maupun tidak sadar.
