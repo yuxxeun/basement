@@ -14,7 +14,7 @@ const { post } = Astro.props;
 				<time datetime={post.pubDate}>{getFormattedDate(post.pubDate)}</time> &bull; {Math.ceil(post.readingTime)} min read
 			</p>
 			<h1
-				class="px-4 font-space sm:px-6 max-w-3xl mx-auto text-center text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-8 mt-4 font-heading"
+				class="px-4 uppercase text-orange-600 font-basement sm:px-6 max-w-3xl mx-auto text-center text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-8 mt-4 font-heading"
 			>
 				{post.title}
 			</h1>
@@ -22,7 +22,7 @@ const { post } = Astro.props;
 				post.image && (
 					<Picture
 						src={post.image}
-						class="max-w-full lg:max-w-6xl mx-auto mt-4 mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+						class="mx-auto mt-4 mb-6 max-w-full bg-gray-400 grayscale dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
 						widths={[400, 900]}
 						sizes="(max-width: 900px) 400px, 900px"
 						alt={post.description}
@@ -32,7 +32,7 @@ const { post } = Astro.props;
 			}
 		</header>
 		<div
-			class="overflow-x-hidden container mx-auto px-6 font-space sm:px-6 max-w-3xl prose prose-lg lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
+			class="overflow-x-hidden container mx-auto px-6 font-montreal sm:px-6 max-w-3xl prose prose-lg lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
 		>
 			<Fragment set:html={post.body} />
 		</div>
@@ -41,3 +41,10 @@ const { post } = Astro.props;
 		</div>
 	</article>
 </section>
+
+<style lang="css">
+	Fragment > a {
+		text-decoration: none !important;
+		color: orangered !important;
+	}
+</style>

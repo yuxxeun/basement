@@ -6,11 +6,11 @@ import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
 import partytown from '@astrojs/partytown';
 import { SITE } from './src/config.mjs';
+import prefetch from '@astrojs/prefetch';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-	// Look mom, astro uses this full URL to generate my sitemap and canonical URLs in final build
 	site: SITE.origin,
 	base: SITE.basePathname,
 	output: 'static',
@@ -27,6 +27,9 @@ export default defineConfig({
 			config: {
 				forward: ['dataLayer.push'],
 			},
+		}),
+		prefetch({
+			selector: "a[href^='/']",
 		}),
 	],
 	vite: {

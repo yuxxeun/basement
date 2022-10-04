@@ -11,9 +11,10 @@ module.exports = {
 			},
 			fontFamily: {
 				sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
-				basement: 'BasementGrotesque-Black, cursive',
-				space: 'SpaceMono-Regular, cursive',
-				inter: 'Inter-Regular, cursive',
+				basement: 'BasementGrotesque-Black, sans-serif',
+				space: 'SpaceMono-Regular, sans-serif',
+				inter: 'Inter-Regular, sans-serif',
+				montreal: 'Neue-Montreal-Medium, sans-serif',
 			},
 		},
 	},
