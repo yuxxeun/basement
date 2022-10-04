@@ -30,14 +30,14 @@ const image = await findImage(post.image);
 		<header>
 			<h2 class="text-xl sm:text-2xl font-bold leading-snug mb-2 font-heading">
 				<a
-					class="font-montreal uppercase hover:text-slate-500 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200"
+					class="font-montreal text-orange-600 uppercase hover:text-slate-500 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200"
 					href={getPermalink(post.slug, 'post')}
 				>
 					{post.title}
 				</a>
 			</h2>
 		</header>
-		<p class="text-md font-monreal sm:text-lg flex-grow">
+		<p class="text-md font-monreal dark:text-white text-black sm:text-lg flex-grow">
 			{post.excerpt || post.description}
 		</p>
 		<footer class="mt-4">
@@ -47,7 +47,7 @@ const image = await findImage(post.image);
 					{Math.ceil(post.readingTime)} min read
 				</span>
 			</div>
-			<div class="mt-4">
+			<div class="mt-4 font-space">
 				<PostTags tags={post.tags} />
 			</div>
 		</footer>

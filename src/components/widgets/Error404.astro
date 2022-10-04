@@ -2,20 +2,20 @@
 import { getHomePermalink } from '~/utils/permalinks';
 ---
 
-<section class="flex font-space items-center h-full p-16">
+<section class="flex items-center h-full p-16">
 	<div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
 		<div class="max-w-md text-center">
-			<h2 class="mb-8 font-bold text-9xl">
+			<h2 class="mb-8 font-basement font-bold text-9xl">
 				<span class="sr-only">Error</span>
-				<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">451</span>
+				<span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-secondary-500">451</span>
 			</h2>
-			<p class="text-3xl font-semibold md:text-3xl">Unavailable For Legal Reasons</p>
+			<p class="text-3xl font-semibold md:text-3xl font-montreal">Unavailable For Legal Reasons</p>
 			<p class="mt-4 mb-8 text-lg text-gray-600 dark:text-slate-400">
 				Why show a generic 404 when I can make it sound mysterious? It seems you've found something that used to exist,
 				or you spelled something wrong. I'm guessing you spelled something wrong. Can you double check that URL?
 			</p>
 			<a
-				rel="noopener noreferrer"
+				rel="noopener noreferrer prefetch"
 				href={getHomePermalink()}
 				class="btn text-white bg-gray-900 hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-800 ml-4">Return Home</a
 			>
