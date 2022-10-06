@@ -1,5 +1,5 @@
 ---
-pubDate: "Oct 10 2022"
+pubDate: "Oct 6 2022"
 title: "Arabella"
 description: "Arabella's got some interstellar-gator skin"
 excerpt: "Arabella's got some interstellar-gator skin"
