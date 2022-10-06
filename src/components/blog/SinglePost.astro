@@ -14,7 +14,7 @@ const { post } = Astro.props;
 				<time datetime={post.pubDate}>{getFormattedDate(post.pubDate)}</time> &bull; {Math.ceil(post.readingTime)} min read
 			</p>
 			<h1
-				class="px-4 uppercase text-orange-600 font-display tracking-tighter sm:px-6 max-w-3xl mx-auto text-center text-4xl md:text-5xl font-bold leading-tighter mb-8 mt-4 font-heading"
+				class="px-4 uppercase text-orange-600 font-display text-2xl tracking-tight sm:px-6 max-w-3xl mx-auto text-center md:text-5xl font-bold leading-tighter mb-8 mt-4 font-heading"
 			>
 				{post.title}
 			</h1>
