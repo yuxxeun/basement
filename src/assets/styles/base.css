@@ -5,10 +5,19 @@
 @font-face {
 	font-family: 'BasementGrotesque-Black';
 	src: url('/fonts/Basement/BasementGrotesque-Black.woff2') format('woff2');
-	font-weight: 400;
+	font-weight: 900;
 	font-display: swap;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'BasementGrotesque-Display';
+	src: url('/fonts/Basement/BasementGrotesque-Display.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
 @font-face {
 	font-family: 'SpaceMono-Regular';
 	src: url('/fonts/Space/SpaceMono-Regular.woff2') format('woff2');
@@ -28,6 +37,14 @@
 @font-face {
 	font-family: 'Neue-Montreal-Medium';
 	src: url('/fonts/Neue/Neue-Montreal-Medium.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Neue-Montreal-Regular-400';
+	src: url('/fonts/Neue/Neue-Montreal-Regular-400.woff2') format('woff2');
 	font-weight: 900;
 	font-display: swap;
 	font-style: normal;
@@ -56,4 +73,9 @@
 
 [data-aw-toggle-menu].expanded g > path:last-child {
 	@apply translate-y-[-8px] translate-x-[14px] rotate-45;
+}
+
+::selection {
+	background-color: orangered;
+	color: black;
 }
