@@ -23,17 +23,19 @@ const { page } = Astro.props;
 const currentPage = page.currentPage ?? 1;
 
 const meta = {
-	title: `Lab ${currentPage > 1 ? `— ${currentPage} ` : ''}— ${SITE.name}`,
+	title: `Readme ${currentPage > 1 ? `— ${currentPage} ` : ''}— ${SITE.name}`,
 	description: SITE.description,
 	canonical: getCanonical(getPermalink(page.url.current)),
-	ogType: 'Laboratory',
+	ogType: 'Readme',
 	noindex: currentPage > 1,
 };
 ---
 
 <Layout {meta}>
 	<Fragment slot="title">
-		<span class="font-display uppercase tracking-tight dark:text-orange-600 text-orange-600">{meta.ogType}</span>.
+		<span class="font-display text-center uppercase tracking-tight dark:text-orange-600 text-orange-600"
+			>{meta.ogType}
+		</span>
 	</Fragment>
 	<BlogList posts={page.data} />
 	<Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
