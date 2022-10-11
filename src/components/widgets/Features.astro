@@ -1,5 +1,5 @@
 ---
-import { Icon } from 'astro-icon';
+import { Icon } from 'astro-icon'
 
 const items = [
 	{
@@ -38,7 +38,7 @@ const items = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
 		icon: 'flat-color-icons:voice-presentation',
 	},
-];
+]
 ---
 
 <section class="relative">
@@ -46,7 +46,9 @@ const items = [
 	<div class="relative max-w-6xl mx-auto px-4 sm:px-6">
 		<div class="py-4 pt-8 sm:py-6 lg:py-8 lg:pt-12">
 			<div class="mb-8 text-center">
-				<p class="text-base text-primary-600 dark:text-primary-200 font-semibold tracking-wide uppercase">Components</p>
+				<p class="text-base text-primary-600 dark:text-primary-200 font-semibold tracking-wide uppercase">
+					Components
+				</p>
 				<h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
 					Most used widgets
 				</h2>
@@ -57,13 +59,13 @@ const items = [
 			<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start my-12 dark:text-white">
 				{
 					items.map(({ title, description, icon }) => (
-						<div class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800">
-							<div class="flex items-center mb-4">
-								<Icon name={icon} class="w-12 h-12" />
+						<div class="relative flex flex-col rounded bg-white p-6 shadow-xl transition hover:shadow-lg dark:border dark:border-slate-800 dark:bg-slate-900">
+							<div class="mb-4 flex items-center">
+								<Icon name={icon} class="h-12 w-12" />
 
 								<div class="ml-4 text-xl font-bold">{title}</div>
 							</div>
-							<p class="text-gray-500 dark:text-gray-400 text-md">{description}</p>
+							<p class="text-md text-gray-500 dark:text-gray-400">{description}</p>
 						</div>
 					))
 				}

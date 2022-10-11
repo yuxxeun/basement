@@ -1,18 +1,18 @@
-import rss from '@astrojs/rss';
+import rss from '@astrojs/rss'
 
-import { SITE, BLOG } from '~/config.mjs';
-import { fetchPosts } from '~/utils/posts';
-import { getPermalink } from '~/utils/permalinks';
+import { SITE, BLOG } from '~/config.mjs'
+import { fetchPosts } from '~/utils/posts'
+import { getPermalink } from '~/utils/permalinks'
 
 export const get = async () => {
 	if (BLOG.disabled) {
 		return new Response(null, {
 			status: 404,
 			statusText: 'Not found',
-		});
+		})
 	}
 
-	const posts = await fetchPosts();
+	const posts = await fetchPosts()
 
 	return rss({
 		title: `${SITE.name}`,
@@ -25,5 +25,5 @@ export const get = async () => {
 			description: post.description,
 			pubDate: post.pubDate,
 		})),
-	});
-};
+	})
+}

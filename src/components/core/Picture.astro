@@ -1,5 +1,5 @@
 ---
-import { getPicture } from '@astrojs/image';
+import { getPicture } from '@astrojs/image'
 
 const {
 	src,
@@ -12,9 +12,9 @@ const {
 	decoding = 'async',
 	class: className = '',
 	...attrs
-} = Astro.props;
+} = Astro.props
 
-let picture = null;
+let picture = null
 try {
 	picture =
 		src &&
@@ -23,12 +23,12 @@ try {
 			widths,
 			formats,
 			aspectRatio,
-		}));
+		}))
 } catch (e) {
 	// continue regardless of error
 }
 
-const { image = {}, sources = [] } = picture || {};
+const { image = {}, sources = [] } = picture || {}
 ---
 
 {

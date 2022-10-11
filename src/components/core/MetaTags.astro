@@ -1,20 +1,20 @@
 ---
-import { AstroSeo } from '@astrolib/seo';
-import { GoogleAnalytics } from '@astrolib/analytics';
-import { getImage } from '@astrojs/image';
-import { getRelativeUrlByFilePath } from '~/utils/directories';
+import { AstroSeo } from '@astrolib/seo'
+import { GoogleAnalytics } from '@astrolib/analytics'
+import { getImage } from '@astrojs/image'
+import { getRelativeUrlByFilePath } from '~/utils/directories'
 
-import defaultImageSrc from '~/assets/images/gradient.jpg';
+import defaultImageSrc from '~/assets/images/gradient.jpg'
 
-import { SITE } from '~/config.mjs';
-import Fonts from '../atoms/Fonts.astro';
-import ExtraMetaTags from '../atoms/ExtraMetaTags.astro';
+import { SITE } from '~/config.mjs'
+import Fonts from '../atoms/Fonts.astro'
+import ExtraMetaTags from '../atoms/ExtraMetaTags.astro'
 
 const { src: defaultImage } = await getImage({
 	src: defaultImageSrc,
 	width: 1200,
 	height: 628,
-});
+})
 
 const {
 	title = SITE.name,
@@ -27,14 +27,14 @@ const {
 
 	ogTitle = title,
 	ogType = 'website',
-} = Astro.props;
+} = Astro.props
 
 const image =
 	typeof _image === 'string'
 		? new URL(_image, Astro.site)
 		: _image && typeof _image['src'] !== 'undefined'
 		? new URL(getRelativeUrlByFilePath(_image.src), Astro.site)
-		: null;
+		: null
 ---
 
 <meta charset="UTF-8" />

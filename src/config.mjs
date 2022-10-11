@@ -8,7 +8,7 @@ export const SITE = {
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
 	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
-};
+}
 
 export const BLOG = {
 	disabled: false,
@@ -33,4 +33,4 @@ export const BLOG = {
 		disabled: false,
 		pathname: '', // set empty to change from /tag/some-tag to /some-tag
 	},
-};
+}

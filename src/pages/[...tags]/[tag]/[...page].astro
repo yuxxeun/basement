@@ -1,22 +1,22 @@
 ---
-import { SITE, BLOG } from '~/config.mjs';
+import { SITE, BLOG } from '~/config.mjs'
 
-import Layout from '~/layouts/BlogLayout.astro';
-import BlogList from '~/components/blog/List.astro';
-import Pagination from '~/components/atoms/Pagination.astro';
+import Layout from '~/layouts/BlogLayout.astro'
+import BlogList from '~/components/blog/List.astro'
+import Pagination from '~/components/atoms/Pagination.astro'
 
-import { fetchPosts } from '~/utils/posts';
-import { getCanonical, getPermalink, cleanSlug, TAG_BASE } from '~/utils/permalinks';
+import { fetchPosts } from '~/utils/posts'
+import { getCanonical, getPermalink, cleanSlug, TAG_BASE } from '~/utils/permalinks'
 
 export async function getStaticPaths({ paginate }) {
-	if (BLOG?.disabled || BLOG?.tag?.disabled) return [];
+	if (BLOG?.disabled || BLOG?.tag?.disabled) return []
 
-	const posts = await fetchPosts();
+	const posts = await fetchPosts()
 
-	const tags = new Set();
+	const tags = new Set()
 	posts.map((post) => {
-		Array.isArray(post.tags) && post.tags.map((tag) => tags.add(tag.toLowerCase()));
-	});
+		Array.isArray(post.tags) && post.tags.map((tag) => tags.add(tag.toLowerCase()))
+	})
 
 	return Array.from(tags).map((tag) =>
 		paginate(
@@ -27,19 +27,19 @@ export async function getStaticPaths({ paginate }) {
 				props: { tag },
 			}
 		)
-	);
+	)
 }
 
-const { page, tag } = Astro.props;
+const { page, tag } = Astro.props
 
-const currentPage = page.currentPage ?? 1;
+const currentPage = page.currentPage ?? 1
 
 const meta = {
 	title: `All about'${tag}' ${currentPage > 1 ? `— Page ${currentPage} ` : ''}— ${SITE.name}`,
 	description: SITE.description,
 	canonical: getCanonical(getPermalink(page.url.current)),
 	noindex: true,
-};
+}
 ---
 
 <Layout meta={meta}>

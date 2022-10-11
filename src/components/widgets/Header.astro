@@ -1,10 +1,10 @@
 ---
-import { Icon } from 'astro-icon';
-import Logo from '~/components/atoms/Logo.astro';
-import ToggleTheme from '~/components/core/ToggleTheme.astro';
-import ToggleMenu from '~/components/core/ToggleMenu.astro';
+import { Icon } from 'astro-icon'
+import Logo from '~/components/atoms/Logo.astro'
+import ToggleTheme from '~/components/core/ToggleTheme.astro'
+import ToggleMenu from '~/components/core/ToggleMenu.astro'
 
-import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permalinks';
+import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permalinks'
 ---
 
 <header
@@ -43,14 +43,14 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 				</li> -->
 				<li>
 					<a
-						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						class="hover:text-gray-900 hover:text-orange-600 dark:hover:text-orange-600 hover:ease-in-out hover:duration-150 px-4 py-3 flex items-center transition duration-150 ease-in-linear"
 						rel="prefetch"
-						href={getBlogPermalink()}>readme</a
+						href={getBlogPermalink()}>laboratory</a
 					>
 				</li>
 				<li class="md:hidden">
 					<a
-						class="hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						class="hover:text-gray-900 dark:hover:text-orange-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
 						rel="prefetch"
 						href="https://github.com/yuxxeun"
 						>github

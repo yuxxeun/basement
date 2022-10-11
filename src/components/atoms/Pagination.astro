@@ -1,31 +1,31 @@
 ---
-import { Icon } from 'astro-icon';
-const { prevUrl, nextUrl, prevText = 'Prev', nextText = 'Next' } = Astro.props;
+import { Icon } from 'astro-icon'
+const { prevUrl, nextUrl, prevText = 'Prev', nextText = 'Next' } = Astro.props
 ---
 
 {
 	(prevUrl || nextUrl) && (
-		<div class="container flex">
-			<div class="flex flex-row mx-auto container justify-between">
+		<div class="container flex font-display">
+			<div class="container mx-auto flex flex-row justify-between">
 				<a
 					href={prevUrl}
-					class={`btn px-2 font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white shadow-none mr-2
+					class={`btn mr-2 px-2 font-medium text-gray-600 shadow-none hover:text-gray-900 dark:text-gray-400 dark:hover:text-white
       ${!prevUrl ? 'invisible' : ''}`}
 				>
 					<div class="flex flex-row align-middle">
-						<Icon name="tabler:arrow-left" class="w-6 h-6" />
+						<Icon name="tabler:arrow-left" class="h-6 w-6" />
 						<p class="ml-2">{prevText}</p>
 					</div>
 				</a>
 				<a
 					href={nextUrl}
-					class={`btn px-2 font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white shadow-none ${
+					class={`btn px-2 font-medium text-gray-600 shadow-none hover:text-gray-900 dark:text-gray-400 dark:hover:text-white ${
 						!nextUrl ? 'invisible' : ''
 					}`}
 				>
 					<div class="flex flex-row align-middle">
 						<span class="mr-2">{nextText}</span>
-						<Icon name="tabler:arrow-right" class="w-6 h-6" />
+						<Icon name="tabler:arrow-right" class="h-6 w-6" />
 					</div>
 				</a>
 			</div>

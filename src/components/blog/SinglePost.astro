@@ -1,17 +1,19 @@
 ---
-import Picture from '~/components/core/Picture.astro';
-import PostTags from '~/components/atoms/Tags.astro';
+import Picture from '~/components/core/Picture.astro'
+import PostTags from '~/components/atoms/Tags.astro'
 
-import { getFormattedDate } from '~/utils/utils';
+import { getFormattedDate } from '~/utils/utils'
 
-const { post } = Astro.props;
+const { post } = Astro.props
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
 	<article class="overflow-x-auto">
 		<header>
 			<p class="max-w-3xl mx-auto font-space text-center">
-				<time datetime={post.pubDate}>{getFormattedDate(post.pubDate)}</time> &bull; {Math.ceil(post.readingTime)} min read
+				<time datetime={post.pubDate}>{getFormattedDate(post.pubDate)}</time> &bull; {
+					Math.ceil(post.readingTime)
+				} min read
 			</p>
 			<h1
 				class="px-4 uppercase text-orange-600 font-display text-2xl tracking-tight sm:px-6 max-w-3xl mx-auto text-center md:text-5xl font-bold leading-tighter mb-8 mt-4 font-heading"

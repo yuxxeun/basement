@@ -6,4 +6,4 @@ export const getFormattedDate = (date) =>
 				month: 'short',
 				day: 'numeric',
 		  })
-		: '';
+		: ''

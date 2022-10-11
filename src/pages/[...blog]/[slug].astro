@@ -1,17 +1,17 @@
 ---
-import { SITE, BLOG } from '~/config.mjs';
+import { SITE, BLOG } from '~/config.mjs'
 
-import Layout from '~/layouts/PageLayout.astro';
-import SinglePost from '~/components/blog/SinglePost.astro';
+import Layout from '~/layouts/PageLayout.astro'
+import SinglePost from '~/components/blog/SinglePost.astro'
 
-import { getCanonical, getPermalink, cleanSlug, POST_BASE } from '~/utils/permalinks';
-import { fetchPosts } from '~/utils/posts';
-import { findImage } from '~/utils/images';
+import { getCanonical, getPermalink, cleanSlug, POST_BASE } from '~/utils/permalinks'
+import { fetchPosts } from '~/utils/posts'
+import { findImage } from '~/utils/images'
 
 export async function getStaticPaths() {
-	if (BLOG?.disabled || BLOG?.post?.disabled) return [];
+	if (BLOG?.disabled || BLOG?.post?.disabled) return []
 
-	const posts = await fetchPosts();
+	const posts = await fetchPosts()
 
 	return posts.map((post) => ({
 		params: {
@@ -19,10 +19,10 @@ export async function getStaticPaths() {
 			blog: POST_BASE || undefined,
 		},
 		props: { post },
-	}));
+	}))
 }
 
-const { post } = Astro.props;
+const { post } = Astro.props
 
 const meta = {
 	title: `${post.title} — ${SITE.name}`,
@@ -31,7 +31,7 @@ const meta = {
 	image: await findImage(post.image),
 	ogTitle: post.title,
 	ogType: 'lab',
-};
+}
 ---
 
 <Layout {meta}>

@@ -1,14 +1,14 @@
 ---
-import Picture from '~/components/core/Picture.astro';
-import PostTags from '~/components/atoms/Tags.astro';
+import Picture from '~/components/core/Picture.astro'
+import PostTags from '~/components/atoms/Tags.astro'
 
-import { getPermalink } from '~/utils/permalinks';
-import { findImage } from '~/utils/images';
-import { getFormattedDate } from '~/utils/utils';
+import { getPermalink } from '~/utils/permalinks'
+import { findImage } from '~/utils/images'
+import { getFormattedDate } from '~/utils/utils'
 
-const { post } = Astro.props;
+const { post } = Astro.props
 
-const image = await findImage(post.image);
+const image = await findImage(post.image)
 ---
 
 <article class="max-w-md mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8">
