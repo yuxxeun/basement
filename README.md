@@ -1,6 +1,9 @@
-## Let's dive in
+## Honeypod
+
+Pssst... this project was build with [Astro](https://astro.build), astro serve it fast with Astro's next-gen island architecture.
 
 ### Project structure
+All routes are lives in `src/pages/*` directory. I use common (read: boring) naming conventions in naming directory and file. So you should be familiar.
 
 ```
 /
@@ -52,8 +55,6 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
 <br>
 
 ### Commands
@@ -62,9 +63,9 @@ All commands are run from the root of the project, from a terminal:
 
 | Command           | Action                                       |
 | :---------------- | :------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
+| `npm install`     | Installs all dependencies                    |
+| `npm run dev`     | Starts local dev server at `127.0.0.1:3000`  |
+| `npm run build`   | Build to production site to `./dist/`        | 
 | `npm run preview` | Preview your build locally, before deploying |
 
 <br>
@@ -75,13 +76,13 @@ Basic configuration file: `./src/config.mjs`
 
 ```javascript
 export const SITE = {
-  name: "Example",
+  name: "your name",
 
-  origin: "https://example.com",
+  origin: "https://your-name.dev",
   basePathname: "/", // Change this if you need to deploy to Github Pages, for example
 
-  title: "Example - This is the homepage title of Example",
-  description: "This is the homepage description of Example",
+  title: "the title of this website",
+  description: "the description of this website",
 
   googleAnalyticsId: false, // or "G-XXXXXXXXXX",
   googleSiteVerificationId: false // or some value,
@@ -93,22 +94,22 @@ export const BLOG = {
 
   blog: {
     disabled: false,
-    pathname: 'readme', // blog main path, you can change this to "articles" (/articles)
+    pathname: 'lab',
   },
 
   post: {
     disabled: false,
-    pathname: '', // empty for /some-post, value for /pathname/some-post 
+    pathname: '', 
   },
 
   category: {
     disabled: false,
-    pathname: 'category', // set empty to change from /category/some-category to /some-category
+    pathname: 'category',
   },
 
   tag: {
     disabled: false,
-    pathname: 'tag', // set empty to change from /tag/some-tag to /some-tag
+    pathname: 'tag',
   },
 };
 
@@ -117,9 +118,9 @@ export const BLOG = {
 
 <br>
 
-### Deploy
+### Build to production (manual)
 
-#### Deploy to production (manual)
+This site is should be statically generated so you need to run `npm run build` or `yarn build` or even `pnpm build`, choose whatever you want.
 
 You can create an optimized production build with:
 
@@ -131,44 +132,15 @@ Now, your website is ready to be deployed. All generated files are located at
 `dist` folder, which you can deploy the folder to any hosting service you
 prefer.
 
-#### Deploy to Vercel
-
-Clone this repository from this GitHub account and deploy to Vercel:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyuxxeun%2Fhoneypod)
-
-
-<br>
-
-## Roadmap
-
-- *Project*:
-  - **(DONE)** Reduce the complexity in the components folder and simplify the other folders to make it very easy to use.
-  - Create simple and clear strategy to get template updates
-  - Move specific configurations to a specialized file
-  - Fix some bugs with prettier
-  - Make the use of images clean and intuitive
-- *SEO*:
-  - **(DONE)** Add support to easily manage SEO meta-tags (title, description, canonical, social sharing, ...)
-- *Blog (readme)*:
-  - **(DONE)** Support to Fast and SEO friendly blog
-  - **(DONE)** Add support for categories and tags.
-  - Improve blog design
-  - Create component or utilities for latest posts
-  - Create component or utilities for related posts
-  - Add more *shortcodes* or *embed* functions to posts in Markdown: (eg video, tweet...)
-- *More widgets*:
-  - ~~Add more Tailwind components useful for most scenarios (Features, Contact, Call to Actions, Content, FAQs ...)~~
-  - Create external library or place with useful Tailwind components
-- *More Examples*: Add commonly used example pages (Ex: About, Terms, Services...)
-- *Documentation*: Create detailed documentation with best practices and redesign tips
-
 <br>
 
 ## Contributing
 
-If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request. 
+If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a `pull request`. 
 That would be very useful for me personally and i would be happy to listen and take action.
 
+## Maintainer
+- [yuxxeun](https://github.com/yuxxeun)
+
 ## License
-**honeypod** is licensed under the MIT license, why not, of course — see the [LICENSE](https://github.com/yuxxeun/honeypod/blob/main/LICENSE.md) file for details.
+**honeypod** is licensed under the MIT license, of course — see the [LICENSE](./LICENSE.md) file for details.
