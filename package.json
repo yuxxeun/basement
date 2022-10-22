@@ -1,6 +1,6 @@
 {
     "name": "@yuxxeun/honeypod",
-    "description": "thoughts, stories and ideas",
+    "description": "THE LIGHT THAT COMES FROM DOWNSTAIRS",
     "version": "1.0.0.1",
     "private": true,
     "scripts": {
@@ -8,7 +8,6 @@
         "start": "astro dev",
         "build": "astro build",
         "preview": "astro preview",
-        "prepare": "husky install",
         "test": "pre-commit",
         "astro": "astro",
         "format": "prettier -w .",

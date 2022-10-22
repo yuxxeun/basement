@@ -3,7 +3,7 @@ export const SITE = {
 	origin: 'https://yuxxeun.now.sh',
 	basePathname: '/',
 	title: 'yuxxeun®',
-	description: 'thoughts, stories and ideas',
+	description: 'THE LIGHT THAT COMES FROM DOWNSTAIRS',
 	image: 'https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/gradient.jpg?raw=true',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
