@@ -41,15 +41,15 @@
             <ul class="my-5 py-5" transition:fly={{ y: 150, duration: 1500 }}>
                 <li class="__inter">
                     <div class="px-4 sm:px-6">
-                        <h3 class="text-lg font-display leading-6 text-white hover:text-gray-500">
-                            <a href={book.link} target="blank">
+                        <h3 class="text-lg font-display leading-6 text-white">
+                            <a href={book.link} target="blank" class="hover:text-gray-500">
                                 {book.title} by {book.author}
                             </a>
                         </h3>
                         <p
-                            class="mt-1 max-w-2xl font-delight truncate text-sm text-orange-600 hover:text-gray-500"
+                            class="mt-1 max-w-2xl font-delight truncate text-sm"
                         >
-                            <a href={book.link} target="blank">
+                            <a href={book.link} target="blank" class="text-orange-600 hover:text-gray-500">
                                 {book.link}
                             </a>
                         </p>
