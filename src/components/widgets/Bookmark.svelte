@@ -1,5 +1,7 @@
 <script>
     import { fly } from "svelte/transition"
+	import { supabase } from '~/utils/supabase'
+	import { SITE } from '~/config.mjs'
 
     async function getData() {
         const { data, error } = await supabase
@@ -10,8 +12,6 @@
         return data
     }
     const promise = getData()
-	import { supabase } from '~/utils/supabase'
-	import { SITE } from '~/config.mjs'
 	const meta = {
 		title: `Bookmark — ${SITE.name}`,
 		description: SITE.description,
@@ -19,7 +19,7 @@
 	}
 </script>
 
-<section class="px-10 text-md mx-auto py-10 font-delight tracking-wide">
+<section class="mx-auto font-delight tracking-wide my-10">
 	<div class="text-center">
 		<span
 			class="font-display lg:text-6xl px-auto text-2xl text-center uppercase tracking-tight dark:text-orange-600 text-orange-600"
@@ -41,13 +41,13 @@
             <ul class="my-5 py-5" transition:fly={{ y: 150, duration: 1500 }}>
                 <li class="__inter">
                     <div class="px-4 sm:px-6">
-                        <h3 class="text-lg font-display leading-6 text-white">
+                        <h3 class="text-lg font-display leading-6 text-white hover:text-gray-500">
                             <a href={book.link} target="blank">
                                 {book.title} by {book.author}
                             </a>
                         </h3>
                         <p
-                            class="mt-1 max-w-2xl font-delight truncate text-sm text-orange-500"
+                            class="mt-1 max-w-2xl font-delight truncate text-sm text-orange-600 hover:text-gray-500"
                         >
                             <a href={book.link} target="blank">
                                 {book.link}
