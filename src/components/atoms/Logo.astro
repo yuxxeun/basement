@@ -1,8 +1,9 @@
 ---
-import { SITE, BLOG } from '~/config.mjs'
+import { SITE } from '~/config.mjs'
+const { post } = Astro.props
 ---
 
 <span
 	class="self-center ml-2 text-2xl text-gray-900 hover:text-orange-600 dark:hover:text-orange-600 whitespace-nowrap font-delight hover:ease-in-out hover:duration-150 transition duration-150 ease-in-linear tracking-tighter uppercase dark:text-white"
-	>{`${SITE.name}`}
+	>{`${SITE.brand}`}
 </span>

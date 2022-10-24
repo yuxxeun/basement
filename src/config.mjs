@@ -1,12 +1,13 @@
 export const SITE = {
-	name: 'v1.0.0.1',
+	name: 'yuxxeun®',
+	brand: 'v1.0.0.1',
 	origin: 'https://yuxxeun.now.sh',
 	basePathname: '/',
 	title: 'yuxxeun®',
 	description: 'THE LIGHT THAT COMES FROM DOWNSTAIRS',
 	image: 'https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/gradient.jpg?raw=true',
 
-	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
+	googleAnalyticsId: false,
 	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
 }
 
@@ -31,6 +32,6 @@ export const BLOG = {
 
 	tag: {
 		disabled: false,
-		pathname: '', // set empty to change from /tag/some-tag to /some-tag
+		pathname: 'tag', // set empty to change from /tag/some-tag to /some-tag
 	},
 }
