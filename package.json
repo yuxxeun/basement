@@ -49,7 +49,7 @@
     "dependencies": {
         "@astrojs/prefetch": "0.0.8",
         "@astrojs/svelte": "1.0.2",
-        "@supabase/supabase-js": "2.0.0",
+        "@supabase/supabase-js": "2.0.4",
         "moment": "2.29.4",
         "svelte": "3.52.0"
     }
