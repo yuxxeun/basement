@@ -3,6 +3,7 @@ import { SITE } from '~/config.mjs'
 import { getCanonical, getHomePermalink } from '~/utils/permalinks'
 import Layout from '~/layouts/PageLayout.astro'
 import Hero from '~/components/widgets/Hero.astro'
+import { analytics } from '@vercel/analytics'
 
 const meta = {
 	title: SITE.title,
@@ -10,6 +11,8 @@ const meta = {
 	canonical: getCanonical(getHomePermalink()),
 	image: SITE.image,
 }
+
+inject();
 ---
 
 <Layout {meta}>
