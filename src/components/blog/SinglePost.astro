@@ -24,7 +24,7 @@ const { post } = Astro.props
 				post.image && (
 					<Picture
 						src={post.image}
-						class="mx-auto mt-4 mb-6 max-w-full bg-gray-400 grayscale dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
+						class="mx-auto mt-4 mb-6 max-w-full bg-gray-400  dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
 						widths={[400, 900]}
 						sizes="(max-width: 900px) 400px, 900px"
 						alt={post.description}
@@ -34,9 +34,9 @@ const { post } = Astro.props
 			}
 		</header>
 		<div
-			class="overflow-x-hidden tracking-wider container mx-auto px-6 font-delight sm:px-6 max-w-3xl prose prose-lg lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
+			class="overflow-x-hidden tracking-wider container mx-auto px-6 font-delight sm:px-6 max-w-3xl prose prose-lg lg:prose-xl dark:prose-invert prose-headings:text-orange-500 prose-md prose-headings:font-heading prose-headings:leading-wide prose-headings:tracking-normal prose-headings:font-delight prose-headings:font-extrabold prose-a:text-orange-500 prose-img:rounded-md prose-img:shadow-lg mt-8"
 		>
-			<Fragment set:html={post.body} />
+			<Fragment class="fragment" set:html={post.body} />
 		</div>
 		<div class="container font-space mx-auto px-8 sm:px-6 max-w-3xl mt-8">
 			<PostTags tags={post.tags} />

@@ -33,7 +33,7 @@ Yang berarti, dia akan berhenti memperbaiki "bug" yang ada ataupun yang akan ada
 ## Stabilitas
 Mungkin tidak jarang kita mendengar kata "stabil", dari kata "stabil secara finansial", "kondisi mental sudah kembali stabil", "menggunakan versi aplikasi yang stabil", apapun.
 
-Jika mengambil arti dari KBBI, arti dari stabil adalah: *1 mantap; kukuh; tidak goyah* (tentang bangunan, pemerintah, dan sebagainya): situasi politik dalam negeri kita --; *2 tetap jalannya; tenang; tidak goyang* (tentang kendaraan, kapal, dan sebagainya): setelah barang-barang dibuang ke laut, kapal -- kembali; *3 tidak berubah-ubah; tetap; tidak naik turun* (tentang harga barang, nilai uang, dan sebagainya): harga kopra sekarang mulai --;
+Jika mengambil arti dari KBBI, arti dari stabil adalah: ***1. mantap; kukuh; tidak goyah*** (tentang bangunan, pemerintah, dan sebagainya): situasi politik dalam negeri kita --; ***2. tetap jalannya; tenang; tidak goyang*** (tentang kendaraan, kapal, dan sebagainya): setelah barang-barang dibuang ke laut, kapal -- kembali; ***3. tidak berubah-ubah; tetap; tidak naik turun*** (tentang harga barang, nilai uang, dan sebagainya): harga kopra sekarang mulai --;
 
 Mari kita ambil kesimpulan bahwa stabil artinya adalah sebuah kondisi yang bersifat netral dan berada di tengah. Tidak cenderung ke A ataupun ke B.
 
@@ -95,7 +95,7 @@ Dan mungkin proses tersebut sedang stabil, atau sedang di titik rendah, atau sed
 
 Ya, yang mana adalah PR terberat yang tadi sudah disinggung sebelumnya.
 
-Sejujurnya gue belum pernah menjalin hubungan seperti konsep healthy relationship ini jika memang tanda-tandanya adalah seperti yang dijabarkan di artikel [10 Tanda Kamu Sudah Berhasil Menjalankan Healthy Relationship versi IDN Times](https://www.idntimes.com/life/relationship/mia-rahmawati/10-tanda-kamu-sudah-berhasil-menjalankan-healthy-relationship-c1c2/) karena beberapa poinnya pernah ada yang tidak terpenuhi.
+Sejujurnya gue belum pernah menjalin hubungan seperti konsep healthy relationship ini jika memang tanda-tandanya adalah seperti yang dijabarkan di artikel [*10 Tanda Kamu Sudah Berhasil Menjalankan Healthy Relationship versi IDN Times*](https://www.idntimes.com/life/relationship/mia-rahmawati/10-tanda-kamu-sudah-berhasil-menjalankan-healthy-relationship-c1c2/) karena beberapa poinnya pernah ada yang tidak terpenuhi.
 
 Tapi arti healthy relationship menurut gue sederhana: sebuah hubungan yang terjalin selama mungkin, karena memang dari awal tujuannya adalah untuk itu.
 
