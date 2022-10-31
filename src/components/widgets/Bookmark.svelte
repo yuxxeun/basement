@@ -38,8 +38,8 @@
 									{book.title} by {book.author}
 								</a>
 							</h3>
-							<p class="mt-1 max-w-2xl font-delight truncate text-sm">
-								<a href={book.link} target="blank" class="text-orange-600 hover:text-gray-500">
+							<p class="mt-1 max-w-2xl font-delight truncate text-orange-500 hover:text-gray-500 text-sm">
+								<a href={book.link} target="blank" class="">
 									{book.link}
 								</a>
 							</p>
