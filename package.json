@@ -50,7 +50,7 @@
     "dependencies": {
         "@astrojs/prefetch": "0.1.0",
         "@astrojs/svelte": "1.0.2",
-        "@supabase/supabase-js": "2.0.4",
+        "@supabase/supabase-js": "2.0.5",
         "@vercel/analytics": "^0.1.1",
         "moment": "2.29.4",
         "svelte": "3.52.0"
