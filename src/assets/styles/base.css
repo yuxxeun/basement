@@ -52,6 +52,14 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'SpaceGrotesk-Medium';
+	src: url('/fonts/Grotesk/SpaceGrotesk-Medium.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
 @layer components {
 	.btn {
 		@apply inline-flex items-center justify-center rounded border border-transparent py-3 px-6 text-center text-base font-medium leading-snug shadow-lg transition duration-200 ease-in;

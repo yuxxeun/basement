@@ -18,9 +18,8 @@
 
 <section class="mx-auto font-delight tracking-wide my-10">
 	<div class="text-center">
-		<span
-			class="font-display lg:text-6xl px-auto text-2xl text-center uppercase tracking-tight dark:text-orange-600 text-orange-600"
-			>Bookmark
+		<span class="font-display lg:text-6xl px-auto text-2xl text-center uppercase tracking-tight text-oranged"
+			>{meta.ogType}
 		</span>
 	</div>
 	<div class="max-w-6xl mx-auto text-left sm:px-6">
@@ -38,8 +37,8 @@
 									{book.title} by {book.author}
 								</a>
 							</h3>
-							<p class="mt-1 max-w-2xl font-delight truncate text-orange-500 hover:text-gray-500 text-sm">
-								<a href={book.link} target="blank" class="">
+							<p class="mt-1 max-w-2xl font-delight truncate text-oranged hover:text-gray-500 text-sm">
+								<a href={book.link} target="blank">
 									{book.link}
 								</a>
 							</p>
@@ -53,8 +52,8 @@
 		{:catch error}
 			<div class="my-10">
 				<img src="/loading.svg" class="animate-spin mx-auto my-10" alt="Reactivity..." width="200" />
-				<p class="text-orange-500 text-center font-delight text-xl">
-					Oppsss something bad happen with my <del>Firebase</del> Supabase database.
+				<p class="text-oranged text-center font-delight text-xl">
+					{error}
 				</p>
 			</div>
 		{/await}

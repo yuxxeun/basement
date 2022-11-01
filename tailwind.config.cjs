@@ -6,8 +6,9 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
+				oranged: '#ff4500',
 				primary: colors.blue,
-				secondary: colors.pink,
+				secondary: '#ff0080',
 			},
 			fontFamily: {
 				sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
@@ -17,6 +18,7 @@ module.exports = {
 				inter: 'Inter-Regular, sans-serif',
 				montreal: 'Neue-Montreal-Medium, sans-serif',
 				delight: 'Neue-Montreal-Regular-400, sans-serif',
+				grotesk: 'SpaceGrotesk-Medium, sans-serif',
 			},
 		},
 	},
