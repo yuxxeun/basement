@@ -3,7 +3,7 @@ pubDate: "October 23 2022"
 title: "Stabilitas"
 description: "Thank you for having me."
 excerpt: "Thank you for having me."
-image: "~/assets/images/gradient.jpg"
+image: "~/assets/images/stabilitas.jpg"
 tags: [thoughts]
 ---
 

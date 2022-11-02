@@ -3,7 +3,7 @@ pubDate: "Oct 13 2022"
 title: "See you when I see you"
 description: "........."
 excerpt: "........."
-image: "~/assets/images/colors.jpg"
+image: "~/assets/images/see-you.jpg"
 tags: [scenario]
 ---
 

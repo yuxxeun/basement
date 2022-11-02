@@ -3,7 +3,7 @@ pubDate: "Oct 6 2022"
 title: "Arabella"
 description: "Arabella's got some interstellar-gator skin"
 excerpt: "Arabella's got some interstellar-gator skin"
-image: "https://upload.wikimedia.org/wikipedia/commons/e/e7/%22AM%22_%28Arctic_Monkeys%29.jpg"
+image: "~/assets/images/arabella.jpg"
 tags: [music]
 ---
 

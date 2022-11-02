@@ -3,7 +3,7 @@ pubDate: "May 28 2022"
 title: "Emptiness"
 description: "When you don't know what to do."
 excerpt: "Ever since you sit in your comfy room, you have a smart TV; high-end laptops & PCs, ~100MiB/s internet, comfort chair, even Nintendo Switch. You have a couple of good books to read, interesting thoughts to write, and some crazy reflection to draw. But you do nothing."
-image: "~/assets/images/colors.jpg"
+image: "~/assets/images/emptyness.jpg"
 tags: [stories]
 ---
 

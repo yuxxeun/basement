@@ -3,7 +3,7 @@ pubDate: "July 01 2022"
 title: "Konfigurasi Text Editor Sejuta Umat"
 description: "Visual Studio by default kinda sucks."
 excerpt: "Visual Studio by default kinda sucks."
-image: "~/assets/images/tools.jpg"
+image: "~/assets/images/editor.jpg"
 tags: [ideas]
 ---
 
