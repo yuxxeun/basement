@@ -48,7 +48,7 @@
         "node": "^14.15.0 || >=16.0.0"
     },
     "dependencies": {
-        "@astrojs/prefetch": "0.1.0",
+        "@astrojs/prefetch": "0.1.1",
         "@astrojs/svelte": "1.0.2",
         "@supabase/supabase-js": "2.0.5",
         "@vercel/analytics": "^0.1.1",
