@@ -1,4 +1,4 @@
----
+f---
 pubDate: "November 3 2022"
 title: "ORM: The Abstraction Dilemma"
 description: "And, damn, ORM (and MVC pattern) is so over-engineering"
@@ -167,7 +167,7 @@ Dan hasilnya kurang lebih seperti ini:
 ```shell
 Array
 (
-    [email] => anggun@hey.io
+    [email] => anggun@acme.inc
 )
 ```
 

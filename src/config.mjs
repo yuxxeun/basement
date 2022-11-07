@@ -6,9 +6,6 @@ export const SITE = {
 	title: 'yuxxeun®',
 	description: 'THE LIGHT THAT COMES FROM DOWNSTAIRS',
 	image: 'https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/gradient.jpg?raw=true',
-
-	googleAnalyticsId: false,
-	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
 }
 
 export const BLOG = {
