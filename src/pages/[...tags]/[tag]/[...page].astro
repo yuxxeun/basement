@@ -46,9 +46,8 @@ const meta = {
 <Layout meta={meta}>
 	<Fragment slot="title">
 		<span class="font-display lg:text-6xl text-2xl text-center uppercase tracking-tight text-oranged"
-			>{meta.ogType}
+			>{meta.ogType}: {tag}
 		</span>
-		Tag: {tag}
 	</Fragment>
 	<BlogList posts={page.data} />
 	<Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
