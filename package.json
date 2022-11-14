@@ -54,6 +54,6 @@
         "@vercel/analytics": "^0.1.1",
         "astro-analytics": "^2.5.0",
         "moment": "2.29.4",
-        "svelte": "3.52.0"
+        "svelte": "3.53.1"
     }
 }
