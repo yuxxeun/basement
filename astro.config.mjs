@@ -8,7 +8,6 @@ import partytown from '@astrojs/partytown';
 import { SITE } from './src/config.mjs';
 import prefetch from '@astrojs/prefetch';
 import svelte from '@astrojs/svelte';
-import vercel from "@astrojs/vercel/static";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://astro.build/config
@@ -18,7 +17,6 @@ export default defineConfig({
   site: SITE.origin,
   base: SITE.basePathname,
   output: 'static',
-  adapter: vercel(),
   integrations: [tailwind({
     config: {
       applyBaseStyles: false
@@ -38,5 +36,4 @@ export default defineConfig({
       }
     }
   },
-  adapter: vercel()
 });
