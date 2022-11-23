@@ -8,7 +8,6 @@ import partytown from '@astrojs/partytown';
 import { SITE } from './src/config.mjs';
 import prefetch from '@astrojs/prefetch';
 import svelte from '@astrojs/svelte';
-import vercel from '@astrojs/vercel/static';
 import vercel from "@astrojs/vercel/serverless";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -18,7 +17,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
   site: SITE.origin,
   base: SITE.basePathname,
-  output: 'static',
+  output: 'server',
+  adapter: vercel(),
   integrations: [tailwind({
     config: {
       applyBaseStyles: false

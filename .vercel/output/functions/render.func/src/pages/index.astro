@@ -1,0 +1,20 @@
+---
+import { SITE } from '~/config.mjs'
+import { getCanonical, getHomePermalink } from '~/utils/permalinks'
+import Layout from '~/layouts/PageLayout.astro'
+import Hero from '~/components/widgets/Hero.astro'
+import { inject } from '@vercel/analytics'
+
+const meta = {
+	title: SITE.title,
+	description: SITE.description,
+	canonical: getCanonical(getHomePermalink()),
+	image: SITE.image,
+}
+
+inject()
+---
+
+<Layout {meta}>
+	<Hero />
+</Layout>
