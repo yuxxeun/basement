@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="motion-safe:scroll-smooth 2xl:text-[20px]">
+	<head>
+		<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="https://yuxxeun.now.sh">
+<meta name="twitter:creator" content="yuxxeun®">
+<meta name="twitter:title" content="yuxxeun®">
+<meta name="twitter:description" content="THE LIGHT THAT COMES FROM DOWNSTAIRS">
+<meta name="twitter:image" content="https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/gradient.jpg?raw=true">
+
+<script defer host="/umami.js"></script>
+
+
+<title>404 — yuxxeun®</title>
+<meta name="robots" content="index,follow" />
+<meta name="description" content="THE LIGHT THAT COMES FROM DOWNSTAIRS" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="https://yuxxeun.now.sh" />
+<meta name="twitter:creator" content="yuxxeun®" />
+<meta property="og:title" content="404 — yuxxeun®" />
+<meta property="og:description" content="THE LIGHT THAT COMES FROM DOWNSTAIRS" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://yuxxeun.now.sh/assets/gradient.f8344fdd_1gHvkA.jpg" />
+<meta property="og:image:alt" content="404 — yuxxeun®" />
+<meta property="og:site_name" content="yuxxeun®" />
+
+
+<!-- Or Google Fonts -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.ico">
+<link rel="mask-icon" href="/favicon.ico" color="#8D46E7">
+
+
+	<link rel="stylesheet" href="/assets/_...page_.e8d18889.css" /><script type="module" src="/page.ea7edad8.js"></script>
+<script>!(function(w,p,f,c){c=w[p]=Object.assign(w[p]||{},{"lib":"/~partytown/","debug":false});c[f]=(c[f]||[]).concat(["dataLayer.push"])})(window,'partytown','forward');/* Partytown 0.7.1 - MIT builder.io */
+!function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,"/"==(a=(o.lib||"/~partytown/")+(o.debug?"debug/":""))[0]&&(s=e.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(d=setTimeout(w,1e4),e.addEventListener("pt0",f),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||"partytown-sw.js"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&h()}))}),console.error):w())))}function h(t){c=e.createElement(t?"script":"iframe"),t||(c.setAttribute("style","display:block;width:0;height:0;border:0;visibility:hidden"),c.setAttribute("aria-hidden",!0)),c.src=a+"partytown-"+(t?"atomics.js?v=0.7.1":"sandbox-sw.html?"+Date.now()),e.body.appendChild(c)}function w(t,n){for(f(),t=0;t<s.length;t++)(n=e.createElement("script")).innerHTML=s[t].innerHTML,e.head.appendChild(n);c&&c.parentNode.removeChild(c)}function f(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(".").map((function(e,n,i){p=p[i[n]]=n+1<i.length?"push"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),"complete"==e.readyState?u():(t.addEventListener("DOMContentLoaded",u),t.addEventListener("load",u))}(window,document,navigator,top,window.crossOriginIsolated);</script></head>
+
+	<body class="antialiased text-gray-900 dark:text-slate-300 tracking-tight bg-white dark:bg-black">
+		<section class="flex items-center h-full p-16">
+	<div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+		<div class="max-w-md text-left">
+			<h2 class="mb-8 font-basement font-bold text-9xl">
+				<span class="sr-only">Error</span>
+				<span class="text-oranged">451</span>
+			</h2>
+			<p class="text-3xl font-semibold md:text-3xl font-montreal">Unavailable For Legal Reasons</p>
+			<p class="mt-4 mb-8 text-lg text-gray-600 dark:text-slate-400">
+				Why show a generic 404 when I can make it sound mysterious? It seems you've found something that used to
+				exist, or you spelled something wrong. I'm guessing you spelled something wrong. Can you double check
+				that URL?
+			</p>
+			<a rel="noopener noreferrer prefetch" href="/" class="btn text-white bg-gray-900 hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-800 ml-4">Return Home</a>
+		</div>
+	</div>
+</section>
+		<script>
+	// Set "light" theme as default
+	// if (!localStorage.theme) {
+	//   localStorage.theme = "light";
+	// }
+
+	if (
+		localStorage.theme === 'dark' ||
+		(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+	) {
+		document.documentElement.classList.add('dark')
+	} else {
+		document.documentElement.classList.remove('dark')
+	}
+
+	function attachEvent(selector, event, fn) {
+		const matches = document.querySelectorAll(selector)
+		if (matches && matches.length) {
+			matches.forEach((elem) => {
+				elem.addEventListener(event, () => fn(elem), false)
+			})
+		}
+	}
+
+	window.onload = function () {
+		attachEvent('[data-aw-toggle-menu]', 'click', function (elem) {
+			elem.classList.toggle('expanded')
+			document.body.classList.toggle('overflow-hidden')
+			document.getElementById('header')?.classList.toggle('h-screen')
+			document.querySelector('#header nav')?.classList.toggle('hidden')
+		})
+
+		attachEvent('[data-aw-toggle-color-scheme]', 'click', function () {
+			document.documentElement.classList.toggle('dark')
+			localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light'
+		})
+	}
+	window.onpageshow = function () {
+		const elem = document.querySelector('[data-aw-toggle-menu]')
+		if (elem) {
+			elem.classList.remove('expanded')
+		}
+		document.body.classList.remove('overflow-hidden')
+		document.getElementById('header')?.classList.remove('h-screen')
+		document.querySelector('#header nav')?.classList.add('hidden')
+	}
+</script>
+
+		
+	</body>
+</html>
