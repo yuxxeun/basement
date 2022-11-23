@@ -1,8 +1,8 @@
 ---
 import { AstroSeo } from '@astrolib/seo'
-import { GoogleAnalytics } from '@astrolib/analytics'
 import { getImage } from '@astrojs/image'
 import { getRelativeUrlByFilePath } from '~/utils/directories'
+import { Umami } from 'astro-analytics'
 
 import defaultImageSrc from '~/assets/images/gradient.jpg'
 
@@ -48,12 +48,14 @@ const image =
 	name="twitter:image"
 	content="https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/gradient.jpg?raw=true"
 />
-<script
+
+<Umami
 	async
 	defer
-	data-website-id="fd569646-c96d-4376-a74d-6906f8fb0e20"
-	src="https://my-umami.up.railway.app/umami.js"
-></script>
+	data-website-id="63e0d48a-f0b4-44c6-80d5-5f79df38654d"
+	src="https://v-umami.netlify.app/umami.js"
+	partytown={true}
+/>
 
 <AstroSeo
 	title={title}
@@ -84,11 +86,4 @@ const image =
 />
 
 <Fonts />
-
-<!-- Google Site Verification -->
-{SITE.googleSiteVerificationId && <meta name="google-site-verification" content={SITE.googleSiteVerificationId} />}
-
-<!-- Google Analytics -->
-{SITE.googleAnalyticsId && <GoogleAnalytics id={String(SITE.googleAnalyticsId)} partytown={true} />}
-
 <ExtraMetaTags />
