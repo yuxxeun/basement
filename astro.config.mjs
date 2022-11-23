@@ -23,7 +23,7 @@ export default defineConfig({
     config: {
       applyBaseStyles: false
     }
-  }), sitemap(), image(), /* Disable this integration if you don't use Google Analytics (or other external script). */
+  }), sitemap({customPages: ['https://yuxxeun.vercel.app']}), image(), /* Disable this integration if you don't use Google Analytics (or other external script). */
   partytown({
     config: {
       forward: ['dataLayer.push']
