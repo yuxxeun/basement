@@ -8,7 +8,7 @@ import partytown from '@astrojs/partytown';
 import { SITE } from './src/config.mjs';
 import prefetch from '@astrojs/prefetch';
 import svelte from '@astrojs/svelte';
-import vercel from "@astrojs/vercel/serverless";
+import vercel from "@astrojs/vercel/static";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://astro.build/config
@@ -17,13 +17,13 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
   site: SITE.origin,
   base: SITE.basePathname,
-  output: 'server',
+  output: 'static',
   adapter: vercel(),
   integrations: [tailwind({
     config: {
       applyBaseStyles: false
     }
-  }), sitemap({customPages: ['https://yuxxeun.vercel.app']}), image(), /* Disable this integration if you don't use Google Analytics (or other external script). */
+  }), sitemap(), image(), /* Disable this integration if you don't use Google Analytics (or other external script). */
   partytown({
     config: {
       forward: ['dataLayer.push']
