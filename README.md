@@ -68,53 +68,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run build`   | Build to production site to `./dist/`        | 
 | `npm run preview` | Preview your build locally, before deploying |
 
-<br>
-
-### Configuration
-
-Basic configuration file: `./src/config.mjs`
-
-```javascript
-export const SITE = {
-  name: "your name",
-
-  origin: "https://your-name.dev",
-  basePathname: "/", // Change this if you need to deploy to Github Pages, for example
-
-  title: "the title of this website",
-  description: "the description of this website",
-
-  googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-  googleSiteVerificationId: false // or some value,
-};
-
-export const BLOG = {
-  disabled: false,
-  postsPerPage: 4,
-
-  blog: {
-    disabled: false,
-    pathname: 'lab',
-  },
-
-  post: {
-    disabled: false,
-    pathname: '', 
-  },
-
-  category: {
-    disabled: false,
-    pathname: 'category',
-  },
-
-  tag: {
-    disabled: false,
-    pathname: 'tag',
-  },
-};
-
-
-```
 
 <br>
 
