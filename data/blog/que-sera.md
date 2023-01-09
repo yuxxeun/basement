@@ -11,7 +11,7 @@ Semakin dewasa gue semakin sadar bahwa waktu dan kesempatan yang gue miliki sema
 
 Drama hampir terjadi di berbagai lapisan kehidupan, di pekerjaan; pertemanan, percintaan, keluarga, sampai sampai ke sesederhana internet mati pas lagi netflixan. Ada banyak cara tanggapan yang bisa gue pilih, tapi kebanyakan tanggapan yang gue ambil adalah "yaudah lah ya".
 
-Sekilas tanggapan tersebut terlihat seperti pasrah, tapi pasrah adalah tentang tidak melakukan apa-apa. Seperti, ketika internet brengsek ini masih mati ketika gue nonton sekarang pada saat ini sekaliun gue udah cek & restart DNS; cek & restart perangkat, dan cek & restart router, apalagi yang bisa gue lakukan selain yaudah lah ya?
+Sekilas tanggapan tersebut terlihat seperti pasrah, tapi pasrah adalah tentang tidak melakukan apa-apa. Seperti, ketika internet brengsek ini masih mati ketika gue nonton sekarang pada saat ini sekalipun gue udah cek & restart DNS; cek & restart perangkat, dan cek & restart router, apalagi yang bisa gue lakukan selain yaudah lah ya?
 
 Dan itu bukan pasrah. Ada sesuatu yang bisa dan tidak bisa kita kontrol, dan gue sudah melakukan bagian gue. Mungkin gue bisa aja bikin drama, marah-marah di Twitter nyalahin ~indiehome~ penyedia internet yang sedang gue gunakan sambil skrinsut presentase _packet loss_ dari hasil `ping` di `command promp`, tapi pada akhirnya meskipu gue engga marah-marah di Twitter-pun internet gue akan kembali normal.
 
