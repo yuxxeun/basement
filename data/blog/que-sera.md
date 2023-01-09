@@ -38,7 +38,7 @@ Entah kita yang menjadi pelaku ataupun korban, bagaimanapun kita tidak bisa teru
 
 Dan perpisahan adalah sebuah bentuk perayaan, untuk kebaikan diri sendiri ataupun orang lain. Dan ingat, segala sesuatu selalu memiliki _tradeoff_, dan tugas kita dalah memilih yang terbaik untuk kita.
 
-Sebagai penutup, kepada siapapun yang sedang merassakan sakitnya perpisahan, relakanlah. Jangan menutup pintu keluar untuk mereka yang berusaha keras ingin keluar.
+Sebagai penutup, kepada siapapun yang sedang merasakan sakitnya perpisahan, relakanlah. Jangan menutup pintu keluar untuk mereka yang berusaha keras ingin keluar.
 
 Dan untuk siapapun yang sedang tidak terima dengan apa yang sedang terjadi, berbesar hatilah. Segala sesuatu terjadi pasti karena sebuah alasan dan pasti ada alasannya, dan pada akhirnya kita akan mengetahuinya jika memang itu cukup berdampak.
 
