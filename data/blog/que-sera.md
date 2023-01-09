@@ -26,7 +26,7 @@ Di konteks lain, misal pertemanan. Gue udah males drama-drama di pertemanan, kal
 ## The farewell(?)
 
 Hal yang paling sering dialami dalam urusan "perpisahan" ini pertama di pekerjaan.
-Manusia datang dan pergi. Ketika ada teman kantor gue yang memutuskan untuk pindah kantor, gue tidak akan merasa sedih dengan keputusna yang telah da pilih. Itu pasti keputusan terbaik yang sudah dia pikirkan dengan sangat matang. dan yang pasti untuk kebaikan dia juga. Tentu gue merasa sedih —khususnya apabila gue sangat dekat dengan dia— karena gue dan dia sudah tidak bisa bekerja bersama kembali, tapi gue akan lebih memilih "good luck for whatever next" daripada "yah sedih blablabla" karena itu adalah sebuah perayaan, nukan perpisahan.
+Manusia datang dan pergi. Ketika ada teman kantor gue yang memutuskan untuk pindah kantor, gue tidak akan merasa sedih dengan keputusna yang telah da pilih. Itu pasti keputusan terbaik yang sudah dia pikirkan dengan sangat matang. dan yang pasti untuk kebaikan dia juga. Tentu gue merasa sedih —khususnya apabila gue sangat dekat dengan dia— karena gue dan dia sudah tidak bisa bekerja bersama kembali, tapi gue akan lebih memilih "good luck for whatever next" daripada "yah sedih blablabla" karena itu adalah sebuah perayaan, bukan perpisahan.
 
 Gue memikirkan ulang konsep tentang perpisahan yang dibanyak kasus ternyata lebh cocok disebut sebagai perayaan.
 
@@ -34,19 +34,19 @@ Contoh lain yang sering dialamin juga dalah di percintaan. kasusnya hampir sama 
 
 Mungkin hubungan yang ada terkesan toxic dan tidak ada yang bisa diubah karena salah satu phak tidak benar-benar berubah. Mungkin hubugan yang ada berat sebelah sehingga yang merasa diuntungkan hanya satu pihak. Masih banyak lagi kemungkinan yang ada, namun intinya selalu mengarah ke perpisahan yang tidak jarang terasa menyakitkan.
 
-Entah kita yang menjadi pelaku ataupun korban, bagaimanapun kita tidakbisa terus egois baik terhadap diri kita sendiri ataupun orang lain.
+Entah kita yang menjadi pelaku ataupun korban, bagaimanapun kita tidak bisa terus egois baik terhadap diri kita sendiri ataupun orang lain.
 
 Dan perpisahan adalah sebuah bentuk perayaan, untuk kebaikan diri sendiri ataupun orang lain. Dan ingat, segala sesuatu selalu memiliki _tradeoff_, dan tugas kita dalah memilih yang terbaik untuk kita.
 
-Sebagai penutup, kepada siapapun yang sedang merassakan sakitnya perpisahan, relakanlah. jangan menutup pintu keluar untuk mereka yang berusaha keras ingin keluar.
+Sebagai penutup, kepada siapapun yang sedang merassakan sakitnya perpisahan, relakanlah. Jangan menutup pintu keluar untuk mereka yang berusaha keras ingin keluar.
 
-Dan untuk siapapun yang sedang tidak terima dengan apa yang sedang terjadi, berbesar hatilah. Segala sesuatu terjadi pasti karena sebuah alasan dan pasti ada alasannya, dan pada akhirnyakita akan mengetahuinya jika memnag itu cukup berdampak.
+Dan untuk siapapun yang sedang tidak terima dengan apa yang sedang terjadi, berbesar hatilah. Segala sesuatu terjadi pasti karena sebuah alasan dan pasti ada alasannya, dan pada akhirnya kita akan mengetahuinya jika memang itu cukup berdampak.
 
 Que sera, sera.
 
 Apa yang terjadi, terjadilah.
 
-Ketahui apa yang bisa dan tidak bisa diperbaiki serta mana yang bisa dan tidak bisa dikontrol, maka seharunyakita bisa lebih sedikit mengkhawatirkan atas apa yangakan terjadi, baik yang diharapkan ataupun yang tidak diharapkan.
+Ketahui apa yang bisa dan tidak bisa diperbaiki serta mana yang bisa dan tidak bisa dikontrol, maka seharusnya kita bisa lebih sedikit mengkhawatirkan atas apa yang akan terjadi, baik yang diharapkan ataupun yang tidak diharapkan.
 
 The future's not ours to see.
 
