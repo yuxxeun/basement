@@ -13,11 +13,11 @@ Drama hampir terjadi di berbagai lapisan kehidupan, di pekerjaan; pertemanan, pe
 
 Sekilas tanggapan tersebut terlihat seperti pasrah, tapi pasrah adalah tentang tidak melakukan apa-apa. Seperti, ketika internet brengsek ini masih mati ketika gue nonton sekarang pada saat ini sekaliun gue udah cek & restart DNS; cek & restart perangkat, dan cek & restart router, apalagi yang bisa gue lakukan selain yaudah lah ya?
 
-Dan itu bukan pasrah. Ada sesuatu yang bisa dan tidak bisa kita kontrol, dan gue sudah melakukan bagian gue. Mungkin gue bisa aja bikin drama, marah-marah di Twitter nyalahin ~indiehome~ penyedia internet yang sedang gue gunakan sambil skrinsut presentase _packet loss_ dari hasing `ping` di `command promp`, tapi pada akhirnya meskipu gue engga marah-marah di Twitter-pun internet gue akan kembali normal.
+Dan itu bukan pasrah. Ada sesuatu yang bisa dan tidak bisa kita kontrol, dan gue sudah melakukan bagian gue. Mungkin gue bisa aja bikin drama, marah-marah di Twitter nyalahin ~indiehome~ penyedia internet yang sedang gue gunakan sambil skrinsut presentase _packet loss_ dari hasil `ping` di `command promp`, tapi pada akhirnya meskipu gue engga marah-marah di Twitter-pun internet gue akan kembali normal.
 
 ...seperti saat ini yang mana gue udah engga mood buat lanjut nonton lagi.
 
-Oke somewhow marah-marah dapat membuat lega, tapi gue rasa untuk bisa lega marah-marah bukanlah satu-satunya cara.
+Oke somehow marah-marah dapat membuat lega, tapi gue rasa untuk bisa lega marah-marah bukanlah satu-satunya cara.
 
 Di konteks lain, misal pertemanan. Gue udah males drama-drama di pertemanan, kalau mau beteman dengan gue ya yo kalau engga ataupun udah engga mau, yaudah. Kalau ada sesuatu yang bisa diperbaiki mari perbaiki, kalau gak mau diperbaiki ya udah. itu hak lo. Gue engga akan menghalangi pintu keluar untuk mereka yang berusaha keras ingin keluar.
 
