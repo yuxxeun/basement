@@ -26,7 +26,7 @@ Di konteks lain, misal pertemanan. Gue udah males drama-drama di pertemanan, kal
 ## The farewell(?)
 
 Hal yang paling sering dialami dalam urusan "perpisahan" ini pertama di pekerjaan.
-Manusia datang dan pergi. Ketika ada teman kantor gue yang memutuskan untuk pindah kantor, gue tidak akan merasa sedih dengan keputusna yang telah da pilih. Itu pasti keputusan terbaik yang sudah dia pikirkan dengan sangat matang. dan yang pasti untuk kebaikan dia juga. Tentu gue merasa sedih —khususnya apabila gue sangat dekat dengan dia— karena gue dan dia sudah tidak bisa bekerja bersama kembali, tapi gue akan lebih memilih "good luck for whatever next" daripada "yah sedih blablabla" karena itu adalah sebuah perayaan, bukan perpisahan.
+Manusia datang dan pergi. Ketika ada teman kantor gue yang memutuskan untuk pindah kantor, gue tidak akan merasa sedih dengan keputusna yang telah dia pilih. Itu pasti keputusan terbaik yang sudah dia pikirkan dengan sangat matang. dan yang pasti untuk kebaikan dia juga. Tentu gue merasa sedih —khususnya apabila gue sangat dekat dengan dia— karena gue dan dia sudah tidak bisa bekerja bersama kembali, tapi gue akan lebih memilih "good luck for whatever next" daripada "yah sedih blablabla" karena itu adalah sebuah perayaan, bukan perpisahan.
 
 Gue memikirkan ulang konsep tentang perpisahan yang dibanyak kasus ternyata lebh cocok disebut sebagai perayaan.
 
