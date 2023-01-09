@@ -13,13 +13,13 @@ Drama hampir terjadi di berbagai lapisan kehidupan, di pekerjaan; pertemanan, pe
 
 Sekilas tanggapan tersebut terlihat seperti pasrah, tapi pasrah adalah tentang tidak melakukan apa-apa. Seperti, ketika internet brengsek ini masih mati ketika gue nonton sekarang pada saat ini sekalipun gue udah cek & restart DNS; cek & restart perangkat, dan cek & restart router, apalagi yang bisa gue lakukan selain yaudah lah ya?
 
-Dan itu bukan pasrah. Ada sesuatu yang bisa dan tidak bisa kita kontrol, dan gue sudah melakukan bagian gue. Mungkin gue bisa aja bikin drama, marah-marah di Twitter nyalahin ~indiehome~ penyedia internet yang sedang gue gunakan sambil skrinsut presentase _packet loss_ dari hasil `ping` di `command promp`, tapi pada akhirnya meskipu gue engga marah-marah di Twitter-pun internet gue akan kembali normal.
+Dan itu bukan pasrah. Ada sesuatu yang bisa dan tidak bisa kita kontrol, dan gue sudah melakukan bagian gue. Mungkin gue bisa aja bikin drama, marah-marah di Twitter nyalahin ~indiehome~ penyedia internet yang sedang gue gunakan sambil skrinsut presentase _packet loss_ dari hasil `ping` di `command promp`, tapi pada akhirnya meskipun gue engga marah-marah di Twitter-pun internet gue akan kembali normal.
 
 ...seperti saat ini yang mana gue udah engga mood buat lanjut nonton lagi.
 
 Oke somehow marah-marah dapat membuat lega, tapi gue rasa untuk bisa lega marah-marah bukanlah satu-satunya cara.
 
-Di konteks lain, misal pertemanan. Gue udah males drama-drama di pertemanan, kalau mau beteman dengan gue ya yo kalau engga ataupun udah engga mau, yaudah. Kalau ada sesuatu yang bisa diperbaiki mari perbaiki, kalau gak mau diperbaiki ya udah. itu hak lo. Gue engga akan menghalangi pintu keluar untuk mereka yang berusaha keras ingin keluar.
+Di konteks lain, misal pertemanan. Gue udah males drama-drama di pertemanan, kalau mau berteman dengan gue ya yo kalau engga ataupun udah engga mau, yaudah. Kalau ada sesuatu yang bisa diperbaiki mari perbaiki, kalau gak mau diperbaiki ya udah. Itu hak lo. Gue engga akan menghalangi pintu keluar untuk mereka yang berusaha keras ingin keluar.
 
 ...pertemanan gue sejauh ini lumayan tenang-tenang aja, dan yang di atas itu hanya sebatas sebagai contoh.
 
@@ -32,7 +32,7 @@ Gue memikirkan ulang konsep tentang perpisahan yang dibanyak kasus ternyata lebi
 
 Contoh lain yang sering dialamin juga dalah di percintaan. kasusnya hampir sama dengan paragraf sebelumnya, namun konteks hubungannya adalah perasaan daripada pekerjaan. terkadang kita merasa sulit unutuk meninggalkan ataupun ditinggalkan, namun bagaimanapun mungkin itu adalah jalan yang terbaik.
 
-Mungkin hubungan yang ada terkesan toxic dan tidak ada yang bisa diubah karena salah satu phak tidak benar-benar berubah. Mungkin hubugan yang ada berat sebelah sehingga yang merasa diuntungkan hanya satu pihak. Masih banyak lagi kemungkinan yang ada, namun intinya selalu mengarah ke perpisahan yang tidak jarang terasa menyakitkan.
+Mungkin hubungan yang ada terkesan toxic dan tidak ada yang bisa diubah karena salah satu pihak tidak benar-benar berubah. Mungkin hubugan yang ada berat sebelah sehingga yang merasa diuntungkan hanya satu pihak. Masih banyak lagi kemungkinan yang ada, namun intinya selalu mengarah ke perpisahan yang tidak jarang terasa menyakitkan.
 
 Entah kita yang menjadi pelaku ataupun korban, bagaimanapun kita tidak bisa terus egois baik terhadap diri kita sendiri ataupun orang lain.
 
