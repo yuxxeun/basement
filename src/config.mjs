@@ -1,6 +1,6 @@
 export const SITE = {
 	name: 'yuxxeun®',
-	brand: 'XVII.IX.MMII',
+	brand: 'XVII x MMII',
 	origin: 'https://yuxxeun.now.sh',
 	basePathname: '/',
 	title: 'yuxxeun®',
