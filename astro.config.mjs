@@ -20,7 +20,10 @@ export default defineConfig({
 			},
 		}),
 		sitemap(),
-		image({serviceEntryPoint: '@astrojs/image/sharp'}), /* Disable this integration if you don't use Google Analytics (or other external script). */,
+		image({
+			serviceEntryPoint: '@astrojs/image/sharp',
+		}) /* Disable this integration if you don't use Google Analytics (or other external script). */,
+		,
 		partytown({
 			config: {
 				forward: ['dataLayer.push'],

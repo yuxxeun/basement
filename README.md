@@ -1,4 +1,4 @@
-## basement.
+## basement
 
 Pssst... this project was build with [Astro](https://astro.build), astro serve it fast with Astro's next-gen island architecture.
 
@@ -69,7 +69,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview` | Preview your build locally, before deploying |
 
 
-<br>
 
 ### Build to production (manual)
 
@@ -96,4 +95,4 @@ That would be very useful for me personally and i would be happy to listen and t
 - [yuxxeun](https://github.com/yuxxeun)
 
 ## License
-**honeypod** is licensed under the MIT license, of course — see the [LICENSE](./LICENSE.md) file for details.
+**basement** is licensed under the MIT license, of course — see the [LICENSE](./LICENSE.md) file for details.
