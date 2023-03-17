@@ -4,7 +4,7 @@ title: "Que sera, sera"
 description: "Whatever will be, will be"
 excerpt: "Whatever will be, will be"
 image: "~/assets/images/que-sera.jpg"
-tags: ['Life']
+tags: ['life']
 ---
 
 Semakin dewasa gue semakin sadar bahwa waktu dan kesempatan yang gue miliki semakin berkurang. Dan somehow udah males dengan adanya drama, entah karena udah bosan atau karena udah capek.
