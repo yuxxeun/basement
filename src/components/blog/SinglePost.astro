@@ -10,7 +10,7 @@ const { post } = Astro.props
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
 	<article class="overflow-x-auto">
 		<header>
-			<p class="max-w-3xl mx-auto font-semibold font-space text-center">
+			<p class="max-w-3xl mx-auto font-semibold font-delight tracking-wide text-md lg:text-lg text-center">
 				<time datetime={post.pubDate}>{getFormattedDate(post.pubDate)}</time> &bull; {
 					Math.ceil(post.readingTime)
 				} min read
@@ -38,7 +38,7 @@ const { post } = Astro.props
 		>
 			<Fragment class="fragment" set:html={post.body} />
 		</div>
-		<div class="container font-space mx-auto px-8 sm:px-6 max-w-3xl mt-8">
+		<div class="container mx-auto px-5 max-w-3xl mt-8">
 			<PostTags tags={post.tags} />
 		</div>
 	</article>

@@ -42,12 +42,12 @@ const image = await findImage(post.image)
 		</p>
 		<footer class="mt-4">
 			<div>
-				<span class="text-gray-500 font-space dark:text-slate-400">
+				<span class="text-gray-500 font-delight tracking-wide dark:text-slate-400">
 					<time datetime={post.pubDate}>{getFormattedDate(post.pubDate)}</time> &bull;
 					{Math.ceil(post.readingTime)} min read
 				</span>
 			</div>
-			<div class="mt-4 font-space">
+			<div class="mt-4">
 				<PostTags tags={post.tags} />
 			</div>
 		</footer>
