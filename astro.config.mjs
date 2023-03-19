@@ -15,6 +15,9 @@ export default defineConfig({
 	site: 'https://yuxxeun.now.sh/',
 	base: '/',
 	preprocess: vitePreprocess(),
+	build: {
+    server: './server'
+},
 	output: 'server',
   adapter: node({
     mode: 'standalone'
