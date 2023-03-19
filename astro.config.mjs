@@ -5,25 +5,31 @@ import tailwind from '@astrojs/tailwind'
 import sitemap from '@astrojs/sitemap'
 import image from '@astrojs/image'
 import partytown from '@astrojs/partytown'
-import { SITE } from './src/config.mjs'
 import prefetch from '@astrojs/prefetch'
 import svelte from '@astrojs/svelte'
+import { vitePreprocess } from '@astrojs/svelte';
+import node from '@astrojs/node';
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
-	site: SITE.origin,
-	base: SITE.basePathname,
+	site: 'https://yuxxeun.now.sh/',
+	base: '/',
+	preprocess: vitePreprocess(),
+	output: 'server',
+  adapter: node({
+    mode: 'standalone'
+  }),
+	compilerOptions: { dev: true, hydratable: true },
 	integrations: [
 		tailwind({
 			config: {
-				applyBaseStyles: false,
-			},
+				applyBaseStyles: false
+			}
 		}),
-		sitemap(),
+		sitemap({ customPages: ['https://yuxxeun.now.sh/'] }),
 		image({
 			serviceEntryPoint: '@astrojs/image/sharp',
 		}) /* Disable this integration if you don't use Google Analytics (or other external script). */,
-		,
 		partytown({
 			config: {
 				forward: ['dataLayer.push'],

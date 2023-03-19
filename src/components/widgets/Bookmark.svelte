@@ -32,17 +32,17 @@
 				<ul class="my-5 py-5" transition:fly={{ y: 150, duration: 1500 }}>
 					<li class="__inter">
 						<div class="px-4 sm:px-6">
-							<h3 class="text-lg font-display leading-6 text-black dark:text-white">
+							<h3 class="text-lg lg:text-2xl font-display leading-6text-black dark:text-white">
 								<a href={book.link} target="blank" class="hover:text-gray-500">
 									{book.title} by {book.author}
 								</a>
 							</h3>
-							<p class="mt-1 max-w-2xl font-delight truncate text-oranged hover:text-gray-500 text-sm">
+							<p class="my-3 px-2 lg:max-w-3xl max-w-sm truncate font-delight text-md w-fit text-oranged hover:text-black dark:hover:text-white dark:text-oranged bg-oranged/30 dark:bg-oranged/20 border border-oranged rounded-lg">
 								<a href={book.link} target="blank">
 									{book.link}
 								</a>
 							</p>
-							<p class="mt-3 max-w-2xl font-space text-sm text-gray-500">
+							<p class="max-w-2xl font-delight tracking-wide text-md text-gray-500">
 								{book.time}
 							</p>
 						</div>
