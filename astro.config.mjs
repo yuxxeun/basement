@@ -18,10 +18,7 @@ export default defineConfig({
 	build: {
     server: './server'
 },
-	output: 'server',
-  adapter: node({
-    mode: 'standalone'
-  }),
+	output: 'static',
 	compilerOptions: { dev: true, hydratable: true },
 	integrations: [
 		tailwind({
