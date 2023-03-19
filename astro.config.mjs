@@ -15,9 +15,6 @@ export default defineConfig({
 	site: 'https://yuxxeun.now.sh/',
 	base: '/',
 	preprocess: vitePreprocess(),
-	build: {
-    server: './server'
-},
 	output: 'static',
 	compilerOptions: { dev: true, hydratable: true },
 	integrations: [
