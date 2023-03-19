@@ -8,7 +8,6 @@ import partytown from '@astrojs/partytown'
 import prefetch from '@astrojs/prefetch'
 import svelte from '@astrojs/svelte'
 import { vitePreprocess } from '@astrojs/svelte';
-import node from '@astrojs/node';
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
