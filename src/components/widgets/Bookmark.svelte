@@ -25,7 +25,7 @@
 	<div class="max-w-6xl mx-auto text-left sm:px-6">
 		{#await promise}
 			<div class="my-3">
-				<img src="/loading.svg" class="animate-spin mx-auto my-10" alt="Reactivity...." width="200" />
+				<img src="/loading.svg" class="animate-spin grayscale mx-auto my-10" alt="Reactivity...." width="200" />
 			</div>
 		{:then data}
 			{#each data as book}
@@ -37,7 +37,7 @@
 									{book.title} by {book.author}
 								</a>
 							</h3>
-							<p class="my-3 px-2 lg:max-w-3xl max-w-sm truncate font-delight text-md w-fit text-oranged hover:text-black dark:hover:text-white dark:text-oranged bg-oranged/30 dark:bg-oranged/20 border border-oranged rounded-lg">
+							<p class="my-3 px-2 lg:max-w-3xl max-w-xs truncate font-delight text-md w-fit text-oranged hover:text-black dark:hover:text-white dark:text-oranged bg-oranged/30 dark:bg-oranged/20 border border-oranged rounded-lg">
 								<a href={book.link} target="blank">
 									{book.link}
 								</a>
