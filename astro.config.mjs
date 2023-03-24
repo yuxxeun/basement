@@ -7,7 +7,7 @@ import image from '@astrojs/image'
 import partytown from '@astrojs/partytown'
 import prefetch from '@astrojs/prefetch'
 import svelte from '@astrojs/svelte'
-import { vitePreprocess } from '@astrojs/svelte';
+import { vitePreprocess } from '@astrojs/svelte'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
@@ -19,8 +19,8 @@ export default defineConfig({
 	integrations: [
 		tailwind({
 			config: {
-				applyBaseStyles: false
-			}
+				applyBaseStyles: false,
+			},
 		}),
 		sitemap({ customPages: ['https://yuxxeun.now.sh/'] }),
 		image({
