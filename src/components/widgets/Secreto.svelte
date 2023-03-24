@@ -26,8 +26,8 @@
 			*input comment currently disabled.
 		</p>
 		<div class="space-x-3">
-			<input type="text" class="cursor-not-allowed text-white px-4 py-2 rounded-lg bg-black border border-white" placeholder="give me dad jokes" disabled />
-			<button class="bg-black border text-white border-white px-3 py-2 rounded-lg cursor-not-allowed">Send!</button>
+			<input type="text" class="cursor-not-allowed text-white px-4 py-2 rounded-lg bg-white dark:bg-black border border-black dark:border-white" placeholder="give me dad jokes" disabled />
+			<button class="dark:bg-black bg-white border text-black dark:text-white border-black dark:border-white px-3 py-2 rounded-lg cursor-not-allowed">Send!</button>
 		</div>
 	</div>
 	<div class="max-w-6xl items-center justify-center align-middle mx-auto sm:px-6">
@@ -37,13 +37,13 @@
 			</div>
 		{:then data}
 			{#each data as comment}
-				<ul class="my-5 py-5 px-3 border md:w-3/6 w-3/4 rounded-lg mx-auto text-center justify-center items-center align-middle border-white" transition:fly={{ y: 150, duration: 1500 }}>
+				<ul class="my-5 py-5 px-3 border md:w-3/6 w-3/4 rounded-lg mx-auto text-center justify-center items-center align-middle dark:border-white border-black" transition:fly={{ y: 150, duration: 1500 }}>
 					<li class="mx-auto">
 						<div class="px-4 text-center justify-center items-center sm:px-6">
 							<h3 class="text-md mb-3 lg:text-2xl font-delight leading-6text-black dark:text-white">
 									{comment.txt}
 							</h3>
-							<span class="px-2 lg:max-w-3xl max-w-xs font-delight text-md w-fit text-white dark:text-oranged bg-oranged/30 dark:bg-oranged/20 border border-oranged rounded-lg">
+							<span class="px-2 lg:max-w-3xl max-w-xs font-delight text-md w-fit text-oranged dark:text-oranged bg-oranged/30 dark:bg-oranged/20 border border-oranged rounded-lg">
 								{ moment(comment.created_at).format('D MMM, YYYY') }
 							</span>
 						</div>
