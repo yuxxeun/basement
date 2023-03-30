@@ -116,9 +116,9 @@
     server-destroy "^1.0.1"
 
 "@astrojs/partytown@^1.0.1":
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/@astrojs/partytown/-/partytown-1.1.1.tgz"
-  integrity sha512-IaKzYieiuxnSRGSuAivV92kDTa0ENbei4Y0yEAowhyzV6MxJJImYEUKycSo/HUJwPQQmsPmBbp/IA4pyoL1Wxg==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/partytown/-/partytown-1.2.0.tgz#736437b046e4fd6dec39993d9c5e235329f1af0f"
+  integrity sha512-AjrroKpBJR4rs0CLlmLqZ82Dfa3fFvN9mQZ3cfOXQYo85Rc/85R01MZiS1S1G5IzqWi2TDWIMH6R1cm12aGKDg==
   dependencies:
     "@builder.io/partytown" "^0.7.4"
     mrmime "^1.0.0"
@@ -1179,9 +1179,9 @@
     to-fast-properties "^2.0.0"
 
 "@builder.io/partytown@^0.7.4":
-  version "0.7.5"
-  resolved "https://registry.npmjs.org/@builder.io/partytown/-/partytown-0.7.5.tgz"
-  integrity sha512-Zbr2Eo0AQ4yzmQr/36/h+6LKjmdVBB3Q5cGzO6rtlIKB/IOpbQVUZW+XAnhpJmJr9sIF97OZjgbhG9k7Sjn4yw==
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/@builder.io/partytown/-/partytown-0.7.6.tgz#697acea6b552167a4dd43ddd4827018aa42e0364"
+  integrity sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -10371,7 +10371,7 @@ mri@1.2.0, mri@^1.1.0:
 
 mrmime@^1.0.0:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/mrmime/-/mrmime-1.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/mrmime/-/mrmime-1.0.1.tgz#5f90c825fad4bdd41dc914eff5d1a8cfdaf24f27"
   integrity sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==
 
 ms@2.0.0:
