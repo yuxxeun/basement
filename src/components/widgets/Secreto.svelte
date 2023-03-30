@@ -26,8 +26,8 @@
 			*currently unavailable for public.
 		</p>
 		<div class="space-x-3">
-			<input type="text" class="cursor-not-allowed text-white px-4 py-2 rounded-lg bg-white dark:bg-black border border-oranged dark:border-white" placeholder="hey!" disabled />
-			<button class="dark:bg-black bg-oranged/30 text-oranged border border-oranged dark:text-white dark:border-white px-3 py-2 rounded-lg cursor-not-allowed">Send!</button>
+			<input type="text" class="cursor-not-allowed text-white px-4 py-2 rounded-lg bg-white dark:bg-black border border-oranged dark:border-oranged" placeholder="hey!" disabled />
+			<button class="dark:bg-oranged/20 dark:border-oranged bg-oranged/30 text-oranged border border-oranged dark:text-oranged px-3 py-2 rounded-lg cursor-not-allowed">Send!</button>
 		</div>
 	</div>
 	<div class="max-w-6xl mx-auto text-left sm:px-6">
