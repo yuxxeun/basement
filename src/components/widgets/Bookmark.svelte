@@ -33,9 +33,7 @@
 					<li class="__inter">
 						<div class="px-4 sm:px-6">
 							<h3 class="text-lg lg:text-2xl font-display leading-6text-black dark:text-white">
-								<a href={book.link} target="blank" class="hover:text-gray-500">
-									{book.title} by {book.author}
-								</a>
+								{book.title} by {book.author}
 							</h3>
 							<p class="my-3 px-2 lg:max-w-3xl max-w-xs truncate font-delight text-md w-fit text-oranged hover:text-black dark:hover:text-white dark:text-oranged bg-oranged/30 dark:bg-oranged/20 border border-oranged rounded-lg">
 								<a href={book.link} target="blank">

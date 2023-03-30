@@ -19,33 +19,33 @@
 
 <section class="mx-auto font-delight tracking-wide my-10">
 	<div class="text-center">
-		<span class="font-display lg:text-6xl px-auto text-2xl text-center uppercase tracking-tight text-oranged">
-			{meta.ogType}
+		<span class="font-display lg:text-6xl px-auto text-2xl text-center uppercase tracking-tight text-oranged"
+			>{meta.ogType}
 		</span>
-		<p class="my-5 italic text-xl">
-			*input comment currently disabled.
+		<p class="my-5 text-xl">
+			*currently unavailable for public.
 		</p>
 		<div class="space-x-3">
-			<input type="text" class="cursor-not-allowed text-white px-4 py-2 rounded-lg bg-white dark:bg-black border border-black dark:border-white" placeholder="give me dad jokes" disabled />
-			<button class="dark:bg-black bg-white border text-black dark:text-white border-black dark:border-white px-3 py-2 rounded-lg cursor-not-allowed">Send!</button>
+			<input type="text" class="cursor-not-allowed text-white px-4 py-2 rounded-lg bg-white dark:bg-black border border-oranged dark:border-white" placeholder="hey!" disabled />
+			<button class="dark:bg-black bg-oranged/30 text-oranged border border-oranged dark:text-white dark:border-white px-3 py-2 rounded-lg cursor-not-allowed">Send!</button>
 		</div>
 	</div>
-	<div class="max-w-6xl items-center justify-center align-middle mx-auto sm:px-6">
+	<div class="max-w-6xl mx-auto text-left sm:px-6">
 		{#await promise}
 			<div class="my-3">
 				<img src="/loading.svg" class="animate-spin grayscale mx-auto my-10" alt="Reactivity...." width="200" />
 			</div>
 		{:then data}
 			{#each data as comment}
-				<ul class="my-5 py-5 px-3 border md:w-3/6 w-3/4 rounded-lg mx-auto text-center justify-center items-center align-middle dark:border-white border-black" transition:fly={{ y: 150, duration: 1500 }}>
-					<li class="mx-auto">
-						<div class="px-4 text-center justify-center items-center sm:px-6">
-							<h3 class="text-md mb-3 lg:text-2xl font-delight leading-6text-black dark:text-white">
-									{comment.txt}
+				<ul class="my-5 py-5" transition:fly={{ y: 150, duration: 1500 }}>
+					<li class="__inter">
+						<div class="px-4 sm:px-6">
+							<h3 class="text-lg lg:text-2xl font-display leading-6 text-black dark:text-white">
+								{comment.txt}
 							</h3>
-							<span class="px-2 lg:max-w-3xl max-w-xs font-delight text-md w-fit text-oranged dark:text-oranged bg-oranged/30 dark:bg-oranged/20 border border-oranged rounded-lg">
+							<p class="my-3 px-2 lg:max-w-3xl max-w-xs truncate font-delight text-md w-fit text-oranged  dark:text-oranged bg-oranged/30 dark:bg-oranged/20 border border-oranged rounded-lg">
 								{ moment(comment.created_at).format('D MMM, YYYY') }
-							</span>
+							</p>
 						</div>
 					</li>
 				</ul>
@@ -60,3 +60,4 @@
 		{/await}
 	</div>
 </section>
+
