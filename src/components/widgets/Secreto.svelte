@@ -51,7 +51,7 @@
 			minlength="5"
 			type="text"
 			placeholder="lorem ipsum"
-			class="text-white italic focus:border-none focus:outline-oranged px-4 py-2 rounded-lg bg-white dark:bg-black border border-oranged dark:border-oranged"
+			class="text-black dark:text-white italic focus:border-none focus:outline-oranged px-4 py-2 rounded-lg bg-white dark:bg-black border border-oranged dark:border-oranged"
 		/>
 		<button
 			value="Submit"
