@@ -4,12 +4,29 @@
 	import { SITE } from '~/config.mjs'
 	import moment from 'moment';
 
+	const onInput = (event) => {
+		if (event.key !== 'Enter') return;
+		inputField.value = '';
+	};
+
 	async function getData() {
 		const { data, error } = await supabase.from('comments').select('*').order('id', { ascending: false })
 		if (error) throw new Error(error.message)
 		return data
 	}
+	
 	const promise = getData()
+
+	// insert data
+	let newComment = '';
+	let inputField;
+	let submit = false;
+	async function sendData() {
+		const { data, error } = await supabase.from('comments').insert([{ txt: newComment }]);
+		if (error) throw new Error(error.message);
+		return data;
+	}
+
 	const meta = {
 		title: `Secreto — ${SITE.name}`,
 		description: SITE.description,
@@ -22,14 +39,57 @@
 		<span class="font-display lg:text-6xl px-auto text-2xl text-center uppercase tracking-tight text-oranged"
 			>{meta.ogType}
 		</span>
-		<p class="my-5 text-xl">
-			*currently unavailable for public.
-		</p>
-		<div class="space-x-3">
-			<input type="text" class="cursor-not-allowed text-white px-4 py-2 rounded-lg bg-white dark:bg-black border border-oranged dark:border-oranged" placeholder="hey!" disabled />
-			<button class="dark:bg-oranged/20 dark:border-oranged bg-oranged/30 text-oranged border border-oranged dark:text-oranged px-3 py-2 rounded-lg cursor-not-allowed">Send!</button>
-		</div>
 	</div>
+
+	<!-- form submit messages -->
+	<form on:submit|preventDefault={() => (submit = true)} class="space-x-3 text-white text-center my-5">
+		<input
+			bind:this={inputField}
+			bind:value={newComment}
+			on:keydown={onInput}
+			required
+			minlength="5"
+			type="text"
+			placeholder="lorem ipsum"
+			class="text-white italic focus:border-none focus:outline-oranged px-4 py-2 rounded-lg bg-white dark:bg-black border border-oranged dark:border-oranged"
+		/>
+		<button
+			value="Submit"
+			on:click={() => (submit = false)}
+			class="dark:bg-oranged/20 dark:border-oranged bg-oranged/30 text-oranged border border-oranged dark:text-oranged px-3 py-2 rounded-lg">
+			Send!
+		</button>
+	</form>
+	{#if submit}
+		{#await sendData()}
+			<div class="text-oranged text-center font-delight">
+				<div>
+					<span>Mengirim pesan...</span>
+				</div>
+			</div>
+		{:then data}
+			<div
+				class="text-center text-oranged before:md:w-5/6 my-5">
+				<div>
+					<span>
+						Berhasil mengirim pesan.
+						<br>
+						Refresh halaman ini untuk melihatnya!</span>
+				</div>
+			</div>
+		{:catch}
+			<div
+				class="text-oranged font-delight md:w-5/6 my-5 text-center">
+				<div>
+					<span>
+						Upsss! u can sending messages for now!
+					</span>
+				</div>
+			</div>
+		{/await}
+	{/if}
+	<!-- end -->
+
 	<div class="max-w-6xl mx-auto text-left sm:px-6">
 		{#await promise}
 			<div class="my-3">
