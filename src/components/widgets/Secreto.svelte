@@ -4,9 +4,14 @@
 	import { SITE } from '~/config.mjs'
 	import moment from 'moment';
 
+	const meta = {
+		title: `Secreto — ${SITE.name}`,
+		description: SITE.description,
+		ogType: 'Secreto',
+	}
+
 	const onInput = (event) => {
-		if (event.key !== 'Enter') return;
-		inputField.value = '';
+		if (event.key == 'Enter');
 	};
 
 	async function getData() {
@@ -17,20 +22,15 @@
 	
 	const promise = getData()
 
-	// insert data
 	let newComment = '';
-	let inputField;
 	let submit = false;
+
+	const inValidText = 'tidak valid'
+
 	async function sendData() {
 		const { data, error } = await supabase.from('comments').insert([{ txt: newComment }]);
 		if (error) throw new Error(error.message);
 		return data;
-	}
-
-	const meta = {
-		title: `Secreto — ${SITE.name}`,
-		description: SITE.description,
-		ogType: 'Secreto',
 	}
 </script>
 
@@ -44,14 +44,13 @@
 	<!-- form submit messages -->
 	<form on:submit|preventDefault={() => (submit = true)} class="space-x-3 text-white text-center my-5">
 		<input
-			bind:this={inputField}
 			bind:value={newComment}
-			on:keydown={onInput}
+			on:keypress={onInput}
 			required
 			minlength="5"
 			type="text"
 			placeholder="lorem ipsum"
-			class="text-black dark:text-white italic focus:border-none focus:outline-oranged px-4 py-2 rounded-lg bg-white dark:bg-black border border-oranged dark:border-oranged"
+			class="text-black dark:text-white focus:outline-none px-4 py-2 rounded-lg bg-white dark:bg-black border-2 border-oranged dark:border-oranged"
 		/>
 		<button
 			value="Submit"
@@ -79,7 +78,7 @@
 			</div>
 		{:catch}
 			<div
-				class="text-oranged font-delight md:w-5/6 my-5 text-center">
+				class="text-oranged font-delight md:w-5/6 my-5">
 				<div>
 					<span>
 						Upsss! u can sending messages for now!
