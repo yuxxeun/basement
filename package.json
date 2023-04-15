@@ -55,6 +55,8 @@
         "@supabase/supabase-js": "2.0.5",
         "@vercel/analytics": "^0.1.1",
         "astro-analytics": "^2.5.0",
+        "dedent": "^0.7.0",
+        "inquirer": "^9.1.5",
         "install": "^0.13.0",
         "moment": "2.29.4",
         "svelte": "3.52.0",

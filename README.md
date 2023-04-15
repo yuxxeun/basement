@@ -67,6 +67,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`     | Starts local dev server at `127.0.0.1:3000`  |
 | `npm run build`   | Build to production site to `./dist/`        | 
 | `npm run preview` | Preview your build locally, before deploying |
+| `node ./scripts/compose.js` | To bootstrap a new post |
 
 
 
