@@ -47,7 +47,7 @@ For in the whispers of the heart
 <br>
 We find the truth, the perfect art
 
-Echoes of the heart — again and again they say
+Echoes of the heart — again, they say
 <br>
 Will always find a gentle way
 <br>
