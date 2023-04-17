@@ -1,10 +1,10 @@
 export const SITE = {
-	name: 'yuxxeun®',
+	name: 'yuxxeun',
 	brand: 'basement',
 	origin: 'https://yuxxeun.now.sh/',
 	basePathname: '/',
-	title: 'yuxxeun®',
-	description: 'THE LIGHT THAT COMES FROM DOWNSTAIRS',
+	title: 'yuxxeun',
+	description: 'thoughts, stories and probably random ideas.',
 	image: 'https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/gradient.jpg?raw=true',
 }
 

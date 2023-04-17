@@ -2,7 +2,6 @@
 import { AstroSeo } from '@astrolib/seo'
 import { getImage } from '@astrojs/image'
 import { getRelativeUrlByFilePath } from '~/utils/directories'
-import { Umami } from 'astro-analytics'
 
 import defaultImageSrc from '~/assets/images/gradient.jpg'
 
@@ -69,10 +68,10 @@ const image =
 					},
 			  ]
 			: undefined,
-		site_name: 'yuxxeun®',
+		site_name: 'yuxxeun',
 	}}
 	twitter={{
-		handle: 'yuxxeun®',
+		handle: 'yuxxeun',
 		site: 'https://yuxxeun.now.sh',
 		cardType: image ? 'summary_large_image' : undefined,
 	}}
