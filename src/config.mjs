@@ -1,11 +1,11 @@
 export const SITE = {
-	name: 'yuxxeun',
+	name: 'k.',
 	brand: 'basement',
 	origin: 'https://yuxxeun.now.sh/',
 	basePathname: '/',
-	title: 'yuxxeun',
+	title: 'k.',
 	description: 'thoughts, stories and probably random ideas.',
-	image: 'https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/gradient.jpg?raw=true',
+	image: 'https://raw.githubusercontent.com/yuxxeun/basement/main/src/assets/images/gradient.jpg',
 }
 
 export const BLOG = {

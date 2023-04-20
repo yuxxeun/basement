@@ -1,9 +1,10 @@
 ---
 import '~/assets/styles/base.css'
-
+import { inject } from '@vercel/analytics';
 import MetaTags from '~/components/core/MetaTags.astro'
 import BasicScripts from '~/components/core/BasicScripts.astro'
 
+inject();
 const { meta = {} } = Astro.props
 ---
 
@@ -12,7 +13,6 @@ const { meta = {} } = Astro.props
 	<head>
 		<MetaTags {...meta} />
 	</head>
-
 	<body class="antialiased text-gray-900 dark:text-slate-300 tracking-tight bg-white dark:bg-black">
 		<slot />
 		<BasicScripts />

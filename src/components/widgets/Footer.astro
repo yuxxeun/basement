@@ -1,10 +1,16 @@
 ---
 import { Icon } from 'astro-icon'
+const ip = Astro.request.headers.get('x-real-ip')
+const city = decodeURIComponent(Astro.request.headers.get('x-vercel-ip-city'))
 ---
 
 <footer class="border-t font-delight border-black dark:border-white">
 	<div class="max-w-6xl x-10 mx-auto px-4 sm:px-6">
 		<div class="md:flex md:items-center md:justify-between py-6 md:py-8">
+			<!-- testing -->
+			<p>Your city<br /><strong>{city}</strong></p>
+			<p>Your IP address<br /><strong>{ip}</strong></p>
+			<!-- testing -->
 			<ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
 				<li>
 					<a
