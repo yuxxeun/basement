@@ -218,10 +218,10 @@
   dependencies:
     undici "5.20.0"
 
-"@astrolib/analytics@^0.2.4":
-  version "0.2.4"
-  resolved "https://registry.npmjs.org/@astrolib/analytics/-/analytics-0.2.4.tgz"
-  integrity sha512-V7UQuGXYPX25hihJUR6SLekyFi426ZRQEqWBgWNhQn7ZTIW1g3KPTxQvYhv7a/so1LD5QC8Ay7v1X2kPDFPydg==
+"@astrolib/analytics@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@astrolib/analytics/-/analytics-0.3.0.tgz#cdd4a4b33c36080785a436472083c42853d123d7"
+  integrity sha512-nwGiH7D6c+fnETlP/Gj51iirReo/9ftn8hYtKi5luiBpKDdUksDRDGh5Ni3PR2XPoHPRk5ah/Pk4IXyxUlR0Xg==
 
 "@astrolib/seo@^0.2.1":
   version "0.2.1"
