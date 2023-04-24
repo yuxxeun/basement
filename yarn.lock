@@ -223,10 +223,10 @@
   resolved "https://registry.yarnpkg.com/@astrolib/analytics/-/analytics-0.3.0.tgz#cdd4a4b33c36080785a436472083c42853d123d7"
   integrity sha512-nwGiH7D6c+fnETlP/Gj51iirReo/9ftn8hYtKi5luiBpKDdUksDRDGh5Ni3PR2XPoHPRk5ah/Pk4IXyxUlR0Xg==
 
-"@astrolib/seo@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/@astrolib/seo/-/seo-0.2.1.tgz"
-  integrity sha512-VVN8AMja8RDA9mteHBHYLsf0dmu3qU50G9Shg1Yax7DHbOqpixAjl+teJFBoDg5SUWc/j5k0Ir6ivXIC2ExXlg==
+"@astrolib/seo@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@astrolib/seo/-/seo-0.3.0.tgz#cc126b19db6aff1af088b738e5c89b9cdf327726"
+  integrity sha512-u0CBicM6nj0YIav76dA8ujaLnDwIWTnTkVJMk84jXsTOGR0/lA823WNf6kxSyWbds0kgegKnu1EuU9wIqkyWNg==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.18.6":
   version "7.18.6"
@@ -1501,11 +1501,6 @@
   version "8.36.0"
   resolved "https://registry.npmjs.org/@eslint/js/-/js-8.36.0.tgz"
   integrity sha512-lxJ9R5ygVm8ZWgYdUweoq5ownDlJ4upvoWmO4eLxBYHdMo+vZ/Rx0EN6MbKWDJOSUGrqJy2Gt+Dyv/VKml0fjg==
-
-"@fontsource/inter@^4.5.12":
-  version "4.5.15"
-  resolved "https://registry.npmjs.org/@fontsource/inter/-/inter-4.5.15.tgz"
-  integrity sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==
 
 "@gar/promisify@^1.0.1":
   version "1.1.3"
