@@ -10,7 +10,7 @@
 	}
 	const promise = getData()
 	const meta = {
-		title: `Bookmark — ${SITE.name}`,
+		title: `Bookmark`,
 		description: SITE.description,
 		ogType: 'Bookmark',
 	}
@@ -19,7 +19,7 @@
 <section class="mx-auto font-delight tracking-wide my-10">
 	<div class="text-center">
 		<span class="font-display lg:text-6xl px-auto text-2xl text-center uppercase tracking-tight text-oranged"
-			>{meta.ogType}
+			>{meta.title}
 		</span>
 	</div>
 	<div class="max-w-6xl mx-auto text-left sm:px-6">

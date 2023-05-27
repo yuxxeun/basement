@@ -5,7 +5,7 @@
 	import moment from 'moment';
 
 	const meta = {
-		title: `Secreto — ${SITE.name}`,
+		title: `Secreto`,
 		description: SITE.description,
 		ogType: 'Secreto',
 	}
@@ -37,7 +37,7 @@
 <section class="mx-auto font-delight tracking-wide my-10">
 	<div class="text-center">
 		<span class="font-display lg:text-6xl px-auto text-2xl text-center uppercase tracking-tight text-oranged"
-			>{meta.ogType}
+			>{meta.title}
 		</span>
 	</div>
 
