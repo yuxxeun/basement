@@ -25,7 +25,7 @@ you starting telling me the deeper stories, and now I know the truth.
 
 I honestly don't really understand why you choosing me to listen this kind of things, because we technically know each other only a few months.
 
-On the other hand, I'm happy, happy because I can know you more deeper and know what your personality really is.
+on the other hand, I'm happy, happy because I can know you more deeper and know what your personality really is.
 
 regardless of why you choosing me, you've done your best.
 
