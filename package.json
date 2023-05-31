@@ -52,7 +52,7 @@
         "@astrojs/svelte": "^2.1.0",
         "@astrojs/vercel": "^3.0.0",
         "@supabase/supabase-js": "2.0.5",
-        "@vercel/analytics": "^0.1.11",
+        "@vercel/analytics": "^1.0.0",
         "astro-analytics": "^2.5.0",
         "dedent": "^0.7.0",
         "i": "^0.3.7",
