@@ -50,7 +50,7 @@
         "@astrojs/node": "^5.0.3",
         "@astrojs/prefetch": "0.2.1",
         "@astrojs/svelte": "^2.1.0",
-        "@astrojs/vercel": "^2.3.4",
+        "@astrojs/vercel": "^3.0.0",
         "@supabase/supabase-js": "2.0.5",
         "@vercel/analytics": "^0.1.11",
         "astro-analytics": "^2.5.0",
