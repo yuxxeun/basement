@@ -30,6 +30,11 @@
   resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-1.4.2.tgz#6480154a933acd4c79ccd703567ac5fe4a3a96a3"
   integrity sha512-xoRp7JpiMZPK/beUcZEM5kM44Z/h20wwwQcl54duPqQMyySG9vZ5xMM6dYiQmn7b3XzpZs0cT6TRDoJJ5gwHAQ==
 
+"@astrojs/compiler@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-1.5.0.tgz#e84afaf624c9b8c00df3a00e1fbcdf926dc4ade0"
+  integrity sha512-k04X/7nlMklU0HQUScxbCTf5n8/Vr+0U0bawb9QWulWxd6qJf3FmBrNATgTYiltjB4pc5HBqmmttAfFi7m4lLg==
+
 "@astrojs/image@^0.16.0":
   version "0.16.9"
   resolved "https://registry.yarnpkg.com/@astrojs/image/-/image-0.16.9.tgz#4981a518943fb6fa4672f4a35b714f29fdc8313c"
@@ -200,13 +205,6 @@
     fast-glob "^3.2.11"
     set-cookie-parser "^2.5.1"
     web-vitals "^3.1.1"
-
-"@astrojs/webapi@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/@astrojs/webapi/-/webapi-2.1.0.tgz"
-  integrity sha512-sbF44s/uU33jAdefzKzXZaENPeXR0sR3ptLs+1xp9xf5zIBhedH2AfaFB5qTEv9q5udUVoKxubZGT3G1nWs6rA==
-  dependencies:
-    undici "5.20.0"
 
 "@astrojs/webapi@^2.1.1", "@astrojs/webapi@^2.2.0":
   version "2.2.0"
@@ -11961,7 +11959,16 @@ preserve@^0.2.0:
   resolved "https://registry.npmjs.org/preserve/-/preserve-0.2.0.tgz"
   integrity sha512-s/46sYeylUfHNjI+sA/78FAHlmIuKqI9wNnzEOGehAlUUYeObv5C2mOinXBjyUyWmJ2SfcS2/ydApH4hTF4WXQ==
 
-prettier-plugin-astro@^0.9.0, prettier-plugin-astro@^0.9.1:
+prettier-plugin-astro@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-0.10.0.tgz#b6a1b64176b676f97b97c526cfa3099eaf57d4f8"
+  integrity sha512-dPzop0gKZyVGpTDQmfy+e7FKXC9JT3mlpfYA2diOVz+Ui+QR1U4G/s+OesKl2Hib2JJOtAYJs/l+ovgT0ljlFA==
+  dependencies:
+    "@astrojs/compiler" "^1.5.0"
+    prettier "^2.8.8"
+    sass-formatter "^0.7.6"
+
+prettier-plugin-astro@^0.9.1:
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-0.9.1.tgz#237d2f536d66501c3a351614c43c2372baca7411"
   integrity sha512-pYZXSbdq0eElvzoIMArzv1SBn1NUXzopjlcnt6Ql8VW32PjC12NovwBjXJ6rh8qQLi7vF8jNqAbraKW03UPfag==
@@ -13008,7 +13015,7 @@ sander@^0.5.0:
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-sass-formatter@^0.7.5:
+sass-formatter@^0.7.5, sass-formatter@^0.7.6:
   version "0.7.6"
   resolved "https://registry.yarnpkg.com/sass-formatter/-/sass-formatter-0.7.6.tgz#aa64b4120c375b71b8b7e18ff60b5f3e17081e3e"
   integrity sha512-hXdxU6PCkiV3XAiSnX+XLqz2ohHoEnVUlrd8LEVMAI80uB1+OTScIkH9n6qQwImZpTye1r1WG1rbGUteHNhoHg==
@@ -14486,13 +14493,6 @@ underscore@^1.8.3:
   version "1.13.6"
   resolved "https://registry.npmjs.org/underscore/-/underscore-1.13.6.tgz"
   integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
-
-undici@5.20.0:
-  version "5.20.0"
-  resolved "https://registry.npmjs.org/undici/-/undici-5.20.0.tgz"
-  integrity sha512-J3j60dYzuo6Eevbawwp1sdg16k5Tf768bxYK4TUJRH7cBM4kFCbf3mOnM/0E3vQYXvpxITbbWmBafaDbxLDz3g==
-  dependencies:
-    busboy "^1.6.0"
 
 undici@^5.22.0:
   version "5.22.1"
