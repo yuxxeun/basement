@@ -124,10 +124,10 @@
     "@builder.io/partytown" "^0.7.4"
     mrmime "^1.0.0"
 
-"@astrojs/prefetch@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/@astrojs/prefetch/-/prefetch-0.2.1.tgz"
-  integrity sha512-kVDhUl0BzN/3D1NJL5ndgKK5Dk/mdSf5LinKrPIVVVND+hrdErkihV53sA3pyffdw488pFvAiFu2+LW/DWhiHA==
+"@astrojs/prefetch@0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@astrojs/prefetch/-/prefetch-0.2.3.tgz#00fa61dbbdcd71101948e25634ef911f65a791dc"
+  integrity sha512-r51t4fkGcePA6FHFVDD5vC/whhoKWFSaKNug/4Z2FSKZZga9yjb2qDcrul7u32nVDN+30ywZ/RQAmBMrHOmLiw==
   dependencies:
     throttles "^1.0.1"
 
