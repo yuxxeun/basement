@@ -14,11 +14,11 @@ all of us know that.
 
 and sometimes, many times, connecting with each other is something we cannot avoid.
 
-from simple hello turn into something that goes quite a long way.
+from simple "hello" turn into something that we never kno.
 
 do you remember that day, baby?
 
-it's a Monday.
+it's a monday.
 
 when You start to looking a the most quietest place or at least full of strangers, or even near-empty.
 
@@ -58,7 +58,7 @@ why does time pass so quickly?
 
 and now our time has come — the time for both of us saying... "goodbye".
 
-Sayonara
+sayonara.
 
 22.05.2023 at 16.50 — 20.10
 </i>
