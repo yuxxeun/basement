@@ -98,11 +98,11 @@
     vfile "^5.3.2"
 
 "@astrojs/node@^5.0.3":
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/@astrojs/node/-/node-5.1.4.tgz#a17d3654fd207008925752ec3be49ced292f6aa1"
-  integrity sha512-/YfI6UsWz/ibzSR7YrXkXhsalP2A9VybY8Y40k8jr2bHh4kHGIQnMPx2372g0ZlNnTt5yv7lYD65XzSAYztWhA==
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/node/-/node-5.2.0.tgz#1fbc2fca763c23a066a52f9b2501c86166157800"
+  integrity sha512-WWrQuxvdrD2Jd9np8vpS8/zCNEm0JnGv+oaojXzbfW36R8/09L827t/acYxLuguLufiV3U16QAqEwpS8VFS9TA==
   dependencies:
-    "@astrojs/webapi" "^2.1.1"
+    "@astrojs/webapi" "^2.2.0"
     send "^0.18.0"
     server-destroy "^1.0.1"
 
@@ -196,9 +196,9 @@
     set-cookie-parser "^2.5.1"
     web-vitals "^3.1.1"
 
-"@astrojs/webapi@^2.1.1", "@astrojs/webapi@^2.2.0":
+"@astrojs/webapi@^2.2.0":
   version "2.2.0"
-  resolved "https://registry.npmjs.org/@astrojs/webapi/-/webapi-2.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/@astrojs/webapi/-/webapi-2.2.0.tgz#fd142a468d5d690bc5ab884b532ef4db44f090b2"
   integrity sha512-mHAOApWyjqSe5AQMOUD9rsZJqbMQqe3Wosb1a40JV6Okvyxj1G6GTlthwYadWCymq/lbgwh0PLiY8Fr4eFxtuQ==
   dependencies:
     undici "^5.22.0"
@@ -14198,7 +14198,7 @@ underscore@^1.8.3:
 
 undici@^5.22.0:
   version "5.22.1"
-  resolved "https://registry.npmjs.org/undici/-/undici-5.22.1.tgz"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.22.1.tgz#877d512effef2ac8be65e695f3586922e1a57d7b"
   integrity sha512-Ji2IJhFXZY0x/0tVBXeQwgPlLWw13GVzpsWPQ3rV50IFMMof2I55PZZxtm4P6iNq+L5znYN9nSTAq0ZyE6lSJw==
   dependencies:
     busboy "^1.6.0"
