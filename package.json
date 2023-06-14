@@ -55,12 +55,9 @@
         "@vercel/analytics": "^1.0.0",
         "astro-analytics": "^2.5.0",
         "dedent": "^0.7.0",
-        "i": "^0.3.7",
         "inquirer": "^9.2.0",
-        "install": "^0.13.0",
         "moment": "2.29.4",
         "svelte": "3.59.1",
-        "update": "^0.7.4",
         "vercel": "^30.0.0",
         "web-streams-polyfill": "^3.2.1"
     }

@@ -2,7 +2,9 @@
 dist/
 .output/
 .vercel/
-.vscode/
+
+# vs code setting
+.vscode
 
 # dependencies
 node_modules/
