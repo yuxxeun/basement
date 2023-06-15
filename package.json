@@ -23,7 +23,7 @@
         "@astrojs/sitemap": "^1.0.0",
         "@astrojs/tailwind": "^3.0.0-beta.1",
         "@astrolib/analytics": "^0.3.0",
-        "@astrolib/seo": "^0.2.1",
+        "@astrolib/seo": "^0.4.0",
         "@tailwindcss/typography": "^0.5.7",
         "@typescript-eslint/eslint-plugin": "^5.36.2",
         "@typescript-eslint/parser": "^5.36.2",
