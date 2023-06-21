@@ -37,7 +37,7 @@
         "prettier": "^2.7.1",
         "prettier-plugin-astro": "^0.10.0",
         "reading-time": "^1.5.0",
-        "sharp": "^0.31.1",
+        "sharp": "^0.30.5",
         "subfont": "^6.12.0",
         "svelte-check": "^2.9.2",
         "tailwindcss": "^3.1.8",
