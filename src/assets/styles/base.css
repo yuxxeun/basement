@@ -85,6 +85,10 @@
 	@apply translate-y-[-8px] translate-x-[14px] rotate-45;
 }
 
+:root {
+	user-select: none;
+}
+
 ::selection {
 	background-color: orangered;
 	color: black;
