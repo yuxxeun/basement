@@ -9,9 +9,9 @@ import Picture from '~/components/core/Picture.astro'
 				<div class="relative mb-5 m-auto max-w-xs p-3">
 					<Picture
 						oncontextmenu='alert("Ooops, u not allowed to clicking right on my image ;)");return false;'
-						onclick="{alert('e aí, beleza?')}"
+						onclick="{alert('e aí beleza?')}"
 						src={import('public/krido.jpg')}
-						class="mx-auto grayscale cursor-pointer p-1 rounded-full dark:bg-black w-full"
+						class="mx-auto grayscale p-1 rounded-full dark:bg-black w-full"
 						widths={[400, 768]}
 						sizes=" (max-width: 767px) 400px, 768px"
 						alt="yuxxeun cute avatar"
