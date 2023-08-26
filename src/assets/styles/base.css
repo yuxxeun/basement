@@ -106,6 +106,6 @@ article {
 	color: orangered !important;
 }
 
-body {
+body, *:hover {
 	cursor: crosshair;
 }
