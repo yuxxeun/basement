@@ -86,7 +86,7 @@
 }
 
 :root {
-	user-select: none;
+	/* user-select: none; */
 }
 
 ::selection {
@@ -106,6 +106,7 @@ article {
 	color: orangered !important;
 }
 
-body, *:hover {
+* > *:hover {
 	cursor: crosshair;
+	cursor: revert-layers;
 }

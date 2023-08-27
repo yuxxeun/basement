@@ -4,12 +4,12 @@ import Picture from '~/components/core/Picture.astro'
 
 <section>
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
-		<div class="py-12 md:py-20">
+		<div class="py-10 md:py-20">
 			<div>
-				<div class="relative mb-5 m-auto max-w-xs p-3">
+				<div class="relative mb-4 mt-3 m-auto max-w-xs p-3">
 					<Picture
 						oncontextmenu='alert("Ooops, u not allowed to clicking right on my image ;)");return false;'
-						onclick="{alert('e aí beleza?')}"
+						onclick="{alert(`As long as I have hairspray & code to tackle, I'm good.`)}"
 						src={import('public/krido.jpg')}
 						class="mx-auto grayscale p-1 rounded-full dark:bg-black w-full"
 						widths={[400, 768]}
@@ -28,7 +28,7 @@ import Picture from '~/components/core/Picture.astro'
 				</h1>
 				<div class="max-w-3xl mx-auto">
 					<p class="lg:text-2xl text-lg tracking-tight text-black font-delight mb-8 dark:text-white">
-						<!-- very cool description -->
+						<!-- I’m the one who wears different hats. -->
 					</p>
 				</div>
 			</div>
