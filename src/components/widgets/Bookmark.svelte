@@ -1,4 +1,4 @@
-<script>
+<script lang="javascript">
 	import { fly } from 'svelte/transition'
 	import { supabase } from '~/utils/supabase'
 	import { SITE } from '~/config.mjs'
