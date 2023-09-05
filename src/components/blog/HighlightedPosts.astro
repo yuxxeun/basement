@@ -36,7 +36,7 @@ const items = await Promise.all(
 
 	<div class="grid gap-6 row-gap-5 md:grid-cols-2 lg:grid-cols-4 -mb-6">
 		{
-			items.map((post) => (
+			items.flatMap((post) => (
 				<article class="mb-6 transition">
 					<Picture
 						src={post.image}
