@@ -13,7 +13,7 @@ const ids = [
 ]
 
 const items = await Promise.all(
-	(await findPostsByIds(ids)).map(async (item) => ({ ...item, image: await findImage(item.image) }))
+	(await findPostsByIds(ids)).flatMap(async (item) => ({ ...item, image: await findImage(item.image) }))
 )
 ---
 
