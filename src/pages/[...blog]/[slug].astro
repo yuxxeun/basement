@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 
 	const posts = await fetchPosts()
 
-	return posts.map((post) => ({
+	return posts.flatMap((post) => ({
 		params: {
 			slug: cleanSlug(post.slug),
 			blog: POST_BASE || undefined,

@@ -7,7 +7,7 @@ const { tags, class: className = 'text-sm' } = Astro.props
 {
 	tags && Array.isArray(tags) && (
 		<ul class={className}>
-			{tags.map((tag) => (
+			{tags.flatMap((tag) => (
 				<li class="mr-2 mb-2 inline-block rounded-md border bg-oranged/30 border-oranged dark:border-oranged py-1 text-md px-2 dark:bg-oranged/20 hover:text-black dark:hover:text-white font-delight tracking-wide text-oranged">
 					<a href={getPermalink(tag, 'tag')}>{tag}</a>
 				</li>
