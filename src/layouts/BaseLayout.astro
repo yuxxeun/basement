@@ -1,15 +1,15 @@
 ---
 import '~/assets/styles/base.css'
-import { inject } from '@vercel/analytics';
+import { inject } from '@vercel/analytics'
 import MetaTags from '~/components/core/MetaTags.astro'
 import BasicScripts from '~/components/core/BasicScripts.astro'
 
-inject();
+inject()
 const { meta = {} } = Astro.props
 ---
 
 <!DOCTYPE html>
-<html lang="en" class="motion-safe:scroll-smooth  2xl:text-[20px]">
+<html lang="en" class="motion-safe:scroll-smooth 2xl:text-[20px]">
 	<head>
 		<MetaTags {...meta} />
 	</head>

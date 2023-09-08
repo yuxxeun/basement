@@ -1,10 +1,12 @@
 ---
-	import { Icon } from 'astro-icon'
-	const quotes = ['The light that comes from downstairs',
-				'making cool shit that performs',
-				'combining intensive technology with design expertise'];
+import { Icon } from 'astro-icon'
+const quotes = [
+	'The light that comes from downstairs',
+	'making cool shit that performs',
+	'combining intensive technology with design expertise',
+]
 
-	const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
 ---
 
 <footer class="border-t font-delight border-black dark:border-white">
@@ -49,7 +51,8 @@
 				</li>
 			</ul>
 			<div class="text-md uppercase tracking-wide text-black mr-4 dark:text-white">
-				<span class="animate-spin inline-flex w-5 h-5 items-center text-center justify-center sticky">✳</span>MMXXIII ㅡ Until the end of the internet.
+				<span class="animate-spin inline-flex w-5 h-5 items-center text-center justify-center sticky">✳</span
+				>MMXXIII ㅡ Do it with your whole heart.
 			</div>
 		</div>
 	</div>

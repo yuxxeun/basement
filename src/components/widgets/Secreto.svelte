@@ -96,7 +96,7 @@
 			</div>
 		{:then data}
 			{#each data as comment}
-				<ul class="my-5 py-5" transition:fly={{ y: 150, duration: 1500 }}>
+				<ul class="my-5 py-5" transition:fly={{ y: 200, duration: 6000 }}>
 					<li class="__inter">
 						<div class="px-4 sm:px-6">
 							<h3 class="text-lg lg:text-2xl font-display leading-6 text-black dark:text-white">
