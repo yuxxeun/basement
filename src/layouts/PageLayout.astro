@@ -8,10 +8,10 @@ const { meta } = Astro.props
 ---
 
 <Layout {meta}>
+	<Loading />
 	<Header />
 	<main>
 		<slot />
-		<Loading />
 	</main>
 	<Footer />
 </Layout>
