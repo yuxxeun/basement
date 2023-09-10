@@ -8,7 +8,6 @@ import partytown from '@astrojs/partytown'
 import prefetch from '@astrojs/prefetch'
 import svelte from '@astrojs/svelte'
 import { vitePreprocess } from '@astrojs/svelte'
-import react from '@astrojs/react'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://astro.build/config
@@ -42,7 +41,6 @@ export default defineConfig({
 			selector: "a[href^='/']",
 		}),
 		svelte(),
-		react(),
 	],
 	vite: {
 		resolve: {
@@ -51,4 +49,11 @@ export default defineConfig({
 			},
 		},
 	},
+	supabase: {
+		client: {
+			auth: {
+				persistSession: false
+			}
+		}
+	  }
 })

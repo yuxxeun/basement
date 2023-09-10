@@ -127,12 +127,13 @@ article {
 
 .hover\:animate-pulse:hover {
 	animation-name: wave;
-
 	animation-duration: 1s;
-
 	animation-iteration-count: infinite;
-
 	transform-origin: center;
+}
+
+.border-b {
+	border-bottom: 1px solid white;
 }
 
 

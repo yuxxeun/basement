@@ -66,28 +66,9 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 	</div>
 </header>
 
-
-<script type="text/javascript">
+<script>
 	window.addEventListener("scroll", function() {
 	  var header = document.querySelector("header");
 		header.classList.toggle("border-b", window.scrollY > 0);
 	});
 </script>
-
-<script>
-
-    const elem = document.querySelector('.hover\\:animate-locomotive');
-
-    elem.addEventListener('mouseover', () => {
-
-      elem.classList.add('animate-locomotive');
-
-    });
-
-    elem.addEventListener('mouseout', () => {
-
-      elem.classList.remove('animate-locomotive');
-
-    });
-
-  </script>
