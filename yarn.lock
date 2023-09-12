@@ -2449,23 +2449,23 @@
   integrity sha512-mj5CPR02y0BRs1tN3oZcBNAX9a8NxsIUl9vElDPcqxnMfP0RbRc9fI9Ud7+QDg/1Izvt5uMumsr+6YsmVHcyuw==
 
 "@vercel/analytics@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.0.1.tgz"
-  integrity sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-1.0.2.tgz#7af719a1bf33734840aee6f04eb548d2cedab9ec"
+  integrity sha512-BZFxVrv24VbNNl5xMxqUojQIegEeXMI6rX3rg1uVLYUEXsuKNBSAEQf4BWEcjQDp/8aYJOj6m8V4PUA3x/cxgg==
 
 "@vercel/build-utils@6.7.5":
   version "6.7.5"
-  resolved "https://registry.npmjs.org/@vercel/build-utils/-/build-utils-6.7.5.tgz"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-6.7.5.tgz#b35f92f1c3907697f608f8c1ee236fe46c4d11c3"
   integrity sha512-nzglYEz9BvZH0lptfTtTVDDD3Dyn31gnBGChOUT7J1jkzlMT1IReuysgJPisaWk4v92Ax5SpZL35I0lOQdfKwQ==
 
 "@vercel/error-utils@1.0.10":
   version "1.0.10"
-  resolved "https://registry.npmjs.org/@vercel/error-utils/-/error-utils-1.0.10.tgz"
+  resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-1.0.10.tgz#6530e9c930d5cf4c7f96045ec3a0bccaf2e6b14c"
   integrity sha512-nsKy2sy+pjUWyKI1V/XXKspVzHMYgSalmj5+EsKWFXZbnNZicqxNtMR94J8Hs7SB4TQxh0s4KhczJtL59AVGMg==
 
 "@vercel/gatsby-plugin-vercel-analytics@1.0.10":
   version "1.0.10"
-  resolved "https://registry.npmjs.org/@vercel/gatsby-plugin-vercel-analytics/-/gatsby-plugin-vercel-analytics-1.0.10.tgz"
+  resolved "https://registry.yarnpkg.com/@vercel/gatsby-plugin-vercel-analytics/-/gatsby-plugin-vercel-analytics-1.0.10.tgz#05109138b24880fcd81476c78580bb00bea09ed5"
   integrity sha512-v329WHdtIce+y7oAmaWRvEx59Xfo0FxlQqK4BJG0u6VWYoKWPaflohDAiehIZf/YHCRVb59ZxnzmMOcm/LR8YQ==
   dependencies:
     "@babel/runtime" "7.12.1"
