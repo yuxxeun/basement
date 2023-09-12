@@ -25,8 +25,6 @@
 	let newComment = '';
 	let submit = false;
 
-	const inValidText = 'tidak valid'
-
 	async function sendData() {
 		const { data, error } = await supabase.from('comments').insert([{ txt: newComment }]);
 		if (error) throw new Error(error.message);
