@@ -10,9 +10,9 @@
 	}
 	const promise = getData()
 	const meta = {
-		title: `Bookmark`,
+		title: `Bookmarky`,
 		description: SITE.description,
-		ogType: 'Bookmark',
+		ogType: 'Bookmarky',
 	}
 </script>
 

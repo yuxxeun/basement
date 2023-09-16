@@ -41,7 +41,8 @@
         "tailwindcss": "^3.1.8",
         "typescript": "^3.6",
         "@typescript-eslint/eslint-plugin": "^6.5.0",
-        "@typescript-eslint/parser": "^6.5.0"
+        "@typescript-eslint/parser": "^6.5.0",
+        "protractor": "tomyam1/protractor-ts3.7-fix"
     },
     "engines": {
         "node": "^14.15.0 || >=16.0.0"
