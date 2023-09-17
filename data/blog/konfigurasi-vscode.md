@@ -11,7 +11,7 @@ Sebagai seseorang yang (kadang) suka menulis kode atau program random, gue rasa 
 
 Belakangan ini gue sedang senang menggunakan text editor sejuta umat alias ehm **_[Visual Studio Code](https://visualstudio.microsoft.com/)_** (untuk mempermudah dalam penulisan alias gue males ngetik panjang x lebar, kedepannya kita singkat aja jadi **VScode**), sayangnya tampilan si VScode _by default_ sedikit berantakan dan _kinda boring i guess_.
 
-![VScode by default](https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/konfigurasi-vscode/vscode-default.png?raw=true) <center>_Visual Studio Code by default_</center>
+![VScode by default](https://cdn.hashnode.com/res/hashnode/image/upload/v1627976927817/Nh-DzrwzD.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp) <center>_Visual Studio Code by default_</center>
 
 Maka dari itu gue mencoba untuk membuatnya sedikit bersih dan _aesthetic_.
 
@@ -80,6 +80,6 @@ Oke, sekarang masuk ke setting (MacOs: `cmd` + `,` & Windows / Linux: `ctrl` + `
 
 Sejauh ini hasil yang gue dapatkan seperti ini:
 
-![Look mom, this is my Visual Studio Code with aestethic look](https://github.com/yuxxeun/honeypod/blob/main/src/assets/images/konfigurasi-vscode/hasil.png?raw=true) <center>_Look mom, this is my Visual Studio Code with aesthetic look_</center>
+![Look mom, this is my Visual Studio Code with aestethic look](https://cdn.hashnode.com/res/hashnode/image/upload/v1627978307797/JwvBchRyX.png?auto=compress,format&format=webp) <center>_Look mom, this is my Visual Studio Code with aesthetic look_</center>
 
 Terlihat cukup bersih lah ya daripada yang disajikan oleh VScode _by default_.
