@@ -16,7 +16,7 @@
         "svelte-check": "svelte-check"
     },
     "devDependencies": {
-        "@astrojs/image": "^0.17.0",
+        "@astrojs/image": "^0.18.0",
         "@astrojs/mdx": "^0.11.4",
         "@astrojs/partytown": "^1.0.1",
         "@astrojs/rss": "^2.0.0",
