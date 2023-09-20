@@ -16,7 +16,9 @@
 </script>
 
 <div id="loading-screen">
-	<div class="loader"></div>
+	<div class="loader">
+		<div class="spinner"></div>
+	</div>
 </div>
 
 <style>
@@ -43,10 +45,21 @@
 	.loader {
 		width: 120px;
 		height: 120px;
-		animation: spin 2s linear infinite;
-		background-image: linear-gradient(45deg, #3498db, #e74c3c);
+		background-color: rgba(255, 255, 255, 0.1);
 		border-radius: 50%;
 		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.spinner {
+		width: 80px;
+		height: 80px;
+		border: 8px solid rgba(255, 255, 255, 0.3);
+		border-top-color: #ff5100;
+		border-radius: 50%;
+		animation: spin 2s linear infinite;
 	}
 
 	@keyframes spin {
