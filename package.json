@@ -22,7 +22,7 @@
         "@astrojs/rss": "^2.0.0",
         "@astrojs/sitemap": "^1.0.0",
         "@astrojs/tailwind": "^3.0.0-beta.1",
-        "@astrolib/analytics": "^0.3.0",
+        "@astrolib/analytics": "^0.4.0",
         "@astrolib/seo": "^0.4.0",
         "@tailwindcss/typography": "^0.5.7",
         "astro": "^2.6.1",
