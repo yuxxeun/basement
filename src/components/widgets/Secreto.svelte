@@ -9,9 +9,9 @@
 
 		 function triggerConfetti() {
 			if (newComment.length >= 5) {
-			confetti();
+				confetti();
 			} else {
-			errorMessage = 'Kolom input harus diisi dengan minimal 5 karakter untuk menggunakan confetti.';
+				errorMessage = 'Please fill this section with an funniest messages 😾';
 			}
 		}
 
@@ -61,7 +61,7 @@
 				required
 				minlength="5"
 				type="text"
-				autofocus:true
+				autofocus
 				placeholder="Lorem ipsum"
 				oninvalid="this.setCustomValidity('Please fill this section with an funniest messages 😾')"
 				class="text-black dark:text-white focus:outline-none px-4 py-1 rounded-lg bg-white dark:bg-black border-2 border-oranged dark:border-oranged"
