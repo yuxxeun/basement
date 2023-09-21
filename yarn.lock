@@ -3423,6 +3423,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001502:
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001503.tgz"
   integrity sha512-Sf9NiF+wZxPfzv8Z3iS0rXM1Do+iOy2Lxvib38glFX+08TCYYYGR5fRJXk4d77C4AYwhUjgYgMsMudbh2TqCKw==
 
+canvas-confetti@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.npmjs.org/canvas-confetti/-/canvas-confetti-1.6.0.tgz"
+  integrity sha512-ej+w/m8Jzpv9Z7W7uJZer14Ke8P2ogsjg4ZMGIuq4iqUOqY2Jq8BNW42iGmNfRwREaaEfFIczLuZZiEVSYNHAA==
+
 capitalize@^2.0.3:
   version "2.0.4"
   resolved "https://registry.npmjs.org/capitalize/-/capitalize-2.0.4.tgz"

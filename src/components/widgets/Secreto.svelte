@@ -3,6 +3,17 @@
 		import { supabase } from '~/utils/supabase'
 		import { SITE } from '~/config.mjs'
 		import moment from 'moment';
+		import confetti from 'canvas-confetti';
+
+		let errorMessage = '';	
+
+		 function triggerConfetti() {
+			if (newComment.length >= 5) {
+			confetti();
+			} else {
+			errorMessage = 'Kolom input harus diisi dengan minimal 5 karakter untuk menggunakan confetti.';
+			}
+		}
 
 		const meta = {
 			title: `Secreto`,
@@ -11,7 +22,10 @@
 		}
 
 		const onInput = (event) => {
-			if (event.key == 'Enter');
+			newComment = event.target.value;
+			if (newComment.length >= 5) {
+      			errorMessage = '';
+    		}
 		};
 
 		async function getData() {
@@ -47,16 +61,24 @@
 				required
 				minlength="5"
 				type="text"
+				autofocus:true
 				placeholder="Lorem ipsum"
 				oninvalid="this.setCustomValidity('Please fill this section with an funniest messages 😾')"
 				class="text-black dark:text-white focus:outline-none px-4 py-1 rounded-lg bg-white dark:bg-black border-2 border-oranged dark:border-oranged"
 			/>
 			<button
 				value="Submit"
+				disabled={newComment.length < 5}
 				on:click={() => (submit = false)}
+				on:click={triggerConfetti}
 				class="dark:bg-oranged/20 uppercase dark:border-oranged bg-oranged/30 text-oranged dark:hover:bg-black border-2 border-oranged dark:text-oranged px-4 py-1 rounded-lg">
 				go &rarr;
 			</button>
+			{#if (newComment.length < 5 && newComment.length > 0)}
+				<p class="text-oranged text-center text-md my-5">
+					Please fill this section min 5 character 😾
+				</p>
+		  {/if}
 		</form>
 		{#if submit}
 			{#await sendData()}
