@@ -106,8 +106,7 @@
             Styling
         </span>
         <p class="text-lg">
-            I use Radix Colors to apply palettes consistently, ensure accessibility, and seamlessly switch between light and dark mode. Icons are from Astro Icon. 
-            <br>
+            I use Radix Colors to apply palettes consistently, ensure accessibility, and seamlessly switch between light and dark mode, but unfortunately, currently the toggle theme has been disabled. Icons are from Astro Icon. 
             Also, I don’t use a grid.
         </p>
     </div>
