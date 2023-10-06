@@ -28,7 +28,9 @@
 
             All code is open source and available on <a href="https://github.com/yuxxeun/basement/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
                 Github
-            </a>. The first commit was September 17, 2022. I’ve grown a lot since then—and the technology around me has grown, too. 
+            </a>. 
+            <br>
+            The first commit was September 17, 2022. I’ve grown a lot since then—and the technology around me has grown, too. 
         </p>
     </div>
 
@@ -38,10 +40,16 @@
             Technology
         </span>
         <p class="text-lg">
-            This site is built using Astro. Astro handles the content-heavy views (written in MD format), but for more interactive components I use <a href="https://docs.astro.build/en/guides/integrations-guide/svelte//" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            This site is built using <a href="https://astro.build/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+                Astro
+            </a>. 
+            <br>
+            Astro handles the content-heavy views (written in MD format), but for more interactive components I use <a href="https://docs.astro.build/en/guides/integrations-guide/svelte//" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
                 Svelte framework integration
             </a>.
-            Code is edited using VS Code on a MacBook Pro. My terminal of choice is <a href="https://warp.dev/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            Code is edited using VS Code on a MacBook Pro. 
+            <br><br>
+            My terminal of choice is <a href="https://warp.dev/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
                 Warp
             </a>. My go-to coding font is  <a href="https://github.com/tonsky/FiraCode" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
                 Fira Code
@@ -88,7 +96,7 @@
             Styling
         </span>
         <p class="text-lg">
-            I use Radix Colors to apply palettes consistently, ensure accessibility, and seamlessly switch between light and dark mode. Icons are from Remix Icon. Styles are written using vanilla-extract—a fantastic little library which adds TypeScript’s type safety to your theming and variables and then compiles down to static CSS. I don’t use a grid.
+            I use Radix Colors to apply palettes consistently, ensure accessibility, and seamlessly switch between light and dark mode. Icons are from Astro Icon. I don’t use a grid.
         </p>
     </div>
 
