@@ -24,13 +24,15 @@
             About
         </span>
         <p class="text-lg">
-            I designed and built this site myself. It’s a home to share things I’m exploring and things I’ve built. It’s a place for me to learn in public.
-
+            I designed and built this site myself. 
+            <br>
+            This is a home to share the things I explore in both my on-screen and off-screen worlds.
+            <br>
             All code is open source and available on <a href="https://github.com/yuxxeun/basement/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
                 Github
             </a>. 
             <br>
-            The first commit was September 17, 2022. I’ve grown a lot since then—and the technology around me has grown, too. 
+            The first commit was September 17, 2022. Damn, I’ve grown a lot since then—and the technology around me has grown, too. 
         </p>
     </div>
 
@@ -80,13 +82,21 @@
             <br> <br>
             Type inspiration can be found anywhere, from comic art and video games to bodega window displays, but I often return to a handful of resources:
             <br><br>    
-            &bull; The Elements of Typographic Style by Robert Bringhurst
+            &bull; <a href="https://bookshop.org/a/97627/9780881792126" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+                The Elements of Typographic Style
+            </a> by Robert Bringhurst
             <br>   
-            &bull; Butterick’s Practical Typography
-                <br>   
-            &bull;  Bethany Heck’s Font Review Journal
-                <br>   
-            &bull; Fonts In Use
+            &bull; <a href="https://practicaltypography.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+                Butterick’s Practical Typography
+            </a>
+            <br>   
+            &bull; Bethany Heck's <a href="https://fontreviewjournal.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+                 Font Review Journal
+            </a>
+            <br>   
+            &bull; <a href="https://fontsinuse.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+                Fonts In Use
+            </a> 
         </p>
     </div>
 
@@ -96,7 +106,9 @@
             Styling
         </span>
         <p class="text-lg">
-            I use Radix Colors to apply palettes consistently, ensure accessibility, and seamlessly switch between light and dark mode. Icons are from Astro Icon. I don’t use a grid.
+            I use Radix Colors to apply palettes consistently, ensure accessibility, and seamlessly switch between light and dark mode. Icons are from Astro Icon. 
+            <br>
+            Also, I don’t use a grid.
         </p>
     </div>
 
@@ -106,9 +118,9 @@
             Notice an issue?
         </span>
         <p class="text-lg">
-            If you spot a typo, encounter a broken feature, or have a recommendation for an improvement, file an issue on my 
+            If you spot a typo, encounter a broken feature, or have a recommendation for an improvement, file an issue on this
             <a href="https://github.com/yuxxeun/basement/issues" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white"> 
-                GitHub
+                repository issue section
             </a>.
         </p>
     </div>
