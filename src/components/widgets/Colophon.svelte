@@ -67,6 +67,9 @@
             </a>. Email forwarding is through <a href="https://improvmx.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
                 ImprovMX
             </a>.
+            To handle data interaction such as on dynamic page i.e: bookmark, secreto and etc, I use <a href="https://supabase.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+                Supabase
+            </a> with PostgresSQL dna.
         </p>
     </div>
 
