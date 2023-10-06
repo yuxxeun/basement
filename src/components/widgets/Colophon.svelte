@@ -26,12 +26,13 @@
         <p class="text-lg">
             I designed and built this site myself. 
             <br>
-            This is a home to share the things I explore in both my on-screen and off-screen worlds.
-            <br>
+            This is a home or digital graden (read: <a href="https://maggieappleton.com/garden-history" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+                A Brief History & Ethos of the Digital Garden
+            </a>) to share the things I explore in both my on-screen and off-screen worlds.
             All code is open source and available on <a href="https://github.com/yuxxeun/basement/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
                 Github
             </a>. 
-            <br>
+            <br><br>
             The first commit was September 17, 2022. Damn, I’ve grown a lot since then—and the technology around me has grown, too. 
         </p>
     </div>
