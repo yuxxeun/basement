@@ -14,7 +14,7 @@
             {meta.title}
         </span>
         <p class="lg:text-2xl leading-5 text-lg">
-            Colophon is a designer-y word for “how it’s made”.
+            A designer-y word for “how it’s made”.
         </p>
     </div>
 
