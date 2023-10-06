@@ -40,7 +40,7 @@ export default defineConfig({
 		prefetch({
 			selector: "a[href^='/']",
 		}),
-		svelte(),
+		svelte(), 
 	],
 	vite: {
 		resolve: {

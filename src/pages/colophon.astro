@@ -1,0 +1,17 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro'
+import Colophon from '~/components/widgets/Colophon.svelte'
+import { SITE } from '~/config.mjs'
+
+const meta = {
+	title: `Colophon`,
+	description: SITE.description,
+	ogType: 'Colophon',
+}
+---
+
+<PageLayout {meta}>
+	<div class="max-w-6xl mx-auto px-4 sm:px-6">
+		<Colophon client:load />
+	</div>
+</PageLayout>

@@ -41,8 +41,7 @@
         "sharp": "^0.30.5",
         "subfont": "^6.12.0",
         "svelte-check": "^2.9.2",
-        "tailwindcss": "^3.1.8",
-        "typescript": "^3.6"
+        "tailwindcss": "^3.1.8"
     },
     "engines": {
         "node": "^14.15.0 || >=16.0.0"
@@ -57,10 +56,12 @@
         "@vercel/analytics": "^1.0.0",
         "astro-analytics": "^2.5.0",
         "canvas-confetti": "^1.6.0",
+        "curseur": "^0.0.8",
         "dedent": "^0.7.0",
         "inquirer": "^9.2.0",
         "inspirational-quotes": "^2.0.1",
         "moment": "2.29.4",
+        "react-animated-polyline-cursor": "^1.0.3",
         "svelte": "3.59.1",
         "vercel": "^30.0.0",
         "web-streams-polyfill": "^3.2.1"

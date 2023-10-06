@@ -3,7 +3,7 @@ import '~/assets/styles/base.css'
 import { inject } from '@vercel/analytics'
 import MetaTags from '~/components/core/MetaTags.astro'
 import BasicScripts from '~/components/core/BasicScripts.astro'
-
+import CustomCursor from '~/components/atoms/CustomCursor.svelte'
 inject()
 const { meta = {} } = Astro.props
 ---
@@ -14,6 +14,7 @@ const { meta = {} } = Astro.props
 		<MetaTags {...meta} />
 	</head>
 	<body class="subpixel-antialiased text-gray-900 dark:text-slate-300 tracking-tight bg-white dark:bg-black">
+		<CustomCursor />
 		<slot />
 		<BasicScripts />
 		<style is:global>
