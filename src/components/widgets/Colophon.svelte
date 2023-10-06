@@ -10,7 +10,7 @@
 <section class="mx-auto max-w-3xl lg:space-y-20 space-y-14 font-delight tracking-wide my-10">
     <!-- Title section and tagline -->
     <div class="text-center lg:mt-20 lg:w-3/4 mx-auto items-center lg:space-y-1 space-y-1">
-        <span class="font-display lg:text-6xl mx-auto text-center md:text-5xl text-4xl text-center uppercase tracking-tight text-oranged">
+        <span class="font-display lg:text-6xl mx-auto text-center text-3xl text-center uppercase tracking-tight text-oranged">
             {meta.title}
         </span>
         <p class="lg:text-2xl leading-5 text-lg">
