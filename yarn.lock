@@ -137,12 +137,11 @@
     unist-util-visit "^4.1.0"
     vfile "^5.3.2"
 
-"@astrojs/node@^5.0.3":
-  version "5.2.0"
-  resolved "https://registry.npmjs.org/@astrojs/node/-/node-5.2.0.tgz"
-  integrity sha512-WWrQuxvdrD2Jd9np8vpS8/zCNEm0JnGv+oaojXzbfW36R8/09L827t/acYxLuguLufiV3U16QAqEwpS8VFS9TA==
+"@astrojs/node@^6.0.0":
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@astrojs/node/-/node-6.0.3.tgz#26840e5faee913815506c56e4040fc6b04d32375"
+  integrity sha512-3isB8ETX3WabAh8pY1HMnbt4e8HV9noVP4X52SlF+GycIt7YOXsUSzditjROZkrZOSfWhzsTaHh7EqbdVXqzrw==
   dependencies:
-    "@astrojs/webapi" "^2.2.0"
     send "^0.18.0"
     server-destroy "^1.0.1"
 
