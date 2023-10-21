@@ -63,7 +63,7 @@
         "moment": "2.29.4",
         "react-animated-polyline-cursor": "^1.0.3",
         "svelte": "3.59.1",
-        "vercel": "^30.0.0",
+        "vercel": "^32.0.0",
         "web-streams-polyfill": "^3.2.1"
     }
 }
