@@ -141,7 +141,9 @@ article {
 }
 
 .border-b {
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid black;
 }
 
-
+.dark:border-b {
+	border-bottom: 1px solid white;
+}

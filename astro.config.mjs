@@ -12,7 +12,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://yuxxeun.now.sh/',
+	site: 'https://yuxxeun.tech',
 	base: '/',
 	preprocess: vitePreprocess(),
 	compilerOptions: {
@@ -27,7 +27,7 @@ export default defineConfig({
 			},
 		}),
 		sitemap({
-			customPages: ['https://yuxxeun.now.sh/'],
+			customPages: ['https://yuxxeun.tech'],
 		}),
 		image({
 			serviceEntryPoint: '@astrojs/image/sharp',
@@ -40,7 +40,7 @@ export default defineConfig({
 		prefetch({
 			selector: "a[href^='/']",
 		}),
-		svelte(), 
+		svelte(),
 	],
 	vite: {
 		resolve: {
@@ -52,8 +52,8 @@ export default defineConfig({
 	supabase: {
 		client: {
 			auth: {
-				persistSession: false
-			}
-		}
-	  }
+				persistSession: false,
+			},
+		},
+	},
 })

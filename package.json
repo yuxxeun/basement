@@ -13,7 +13,8 @@
         "format": "prettier -w .",
         "lint:eslint": "eslint . --ext .js,.ts,.astro",
         "subfont": "subfont -ir --no-fallbacks --silent --root dist",
-        "svelte-check": "svelte-check"
+        "svelte-check": "svelte-check",
+        "prepare": "husky install"
     },
     "devDependencies": {
         "@astrojs/image": "^0.17.0",
@@ -25,14 +26,14 @@
         "@astrolib/analytics": "^0.3.0",
         "@astrolib/seo": "^0.4.0",
         "@tailwindcss/typography": "^0.5.7",
-        "@typescript-eslint/eslint-plugin": "^6.5.0",
-        "@typescript-eslint/parser": "^6.5.0",
         "astro": "^2.6.1",
         "astro-icon": "^0.7.3",
         "eslint": "^8.23.0",
         "eslint-plugin-astro": "^0.27.0",
         "eslint-plugin-jsx-a11y": "^6.6.1",
+        "husky": "^8.0.3",
         "limax": "^v2.1.0",
+        "lint-staged": "^14.0.1",
         "mdast-util-to-string": "^3.1.0",
         "prettier": "^2.7.1",
         "prettier-plugin-astro": "^0.10.0",
@@ -59,9 +60,7 @@
         "curseur": "^0.0.8",
         "dedent": "^0.7.0",
         "inquirer": "^9.2.0",
-        "inspirational-quotes": "^2.0.1",
         "moment": "2.29.4",
-        "react-animated-polyline-cursor": "^1.0.3",
         "svelte": "3.59.1",
         "vercel": "^30.0.0",
         "web-streams-polyfill": "^3.2.1"

@@ -19,7 +19,7 @@ module.exports = {
 				montreal: 'Neue-Montreal-Medium, sans-serif',
 				delight: 'Neue-Montreal-Regular-400, sans-serif',
 				grotesk: 'SpaceGrotesk-Medium, sans-serif',
-				roobert: 'Roobert'
+				roobert: 'Roobert',
 			},
 		},
 	},
