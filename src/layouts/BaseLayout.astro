@@ -9,6 +9,26 @@ inject()
 const { meta = {} } = Astro.props
 ---
 
+<script>
+	import Lenis from '@studio-freight/lenis'
+	const lenis = new Lenis({
+    duration: 1.2,
+    easing: (t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t)),
+    orientation: "vertical",
+    gestureOrientation: "vertical",
+    smoothWheel: true,
+    smoothTouch: false,
+    touchMultiplier: 2,
+});
+
+function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+</script>
+
 <!DOCTYPE html>
 <html lang="en" class="motion-safe:scroll-smooth 2xl:text-[20px]">
 	<head>

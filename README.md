@@ -1,4 +1,4 @@
-## basement
+## BSMNT.
 
 Pssst... this project was build with [Astro](https://astro.build), astro serve it fast with Astro's next-gen island architecture.
 
@@ -96,4 +96,4 @@ That would be very useful for me personally and i would be happy to listen and t
 - [yuxxeun](https://github.com/yuxxeun)
 
 ## License
-**basement** is licensed under the MIT license, of course — see the [LICENSE](./LICENSE.md) file for details.
+**BSMNT** is licensed under the MIT license, of course — see the [LICENSE](./LICENSE.md) file for details.

@@ -93,14 +93,30 @@
 	@apply translate-y-[-8px] translate-x-[14px] rotate-45;
 }
 
-:root {
-	/* user-select: none; */
-}
-
 ::selection {
 	background-color: orangered;
 	color: black;
 }
+
+html.lenis {
+	height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+	scroll-behavior: auto;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+	overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+	overflow: hidden;
+  }
+  
+  .lenis.lenis-scrolling iframe {
+	pointer-events: none;
+  }
 
 Fragment > a {
 	color: orangered !important;
