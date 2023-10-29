@@ -4,8 +4,8 @@ export const SITE = {
 	origin: 'https://yuxxeun.tech/',
 	basePathname: '/',
 	title: 'yuxxeun.',
-	description: 'thoughts, stories and probably random ideas.',
-	image: 'https://raw.githubusercontent.com/yuxxeun/basement/main/src/assets/images/gradient.jpg',
+	description: 'redefining robusted typing.',
+	image: 'https://raw.githubusercontent.com/yuxxeun/basement/main/public/bsmnt.png',
 }
 
 export const BLOG = {
