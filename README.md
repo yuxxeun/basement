@@ -1,8 +1,12 @@
-## BSMNT.
+# BSMNT.
+
+<p align="center">
+<img src="./public/bsmnt.png" width="100%" height="auto" />
+</p>
 
 Pssst... this project was build with [Astro](https://astro.build), astro serve it fast with Astro's next-gen island architecture.
 
-### Project structure
+## Project structure
 All routes are lives in `src/pages/*` directory. I use common (read: boring) naming conventions in naming directory and file. So you should be familiar.
 
 ```
@@ -57,7 +61,7 @@ Any static assets, like images, can be placed in the `public/` directory if they
 
 <br>
 
-### Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -71,7 +75,7 @@ All commands are run from the root of the project, from a terminal:
 
 
 
-### Build to production (manual)
+## Build to production (manual)
 
 This site is should be statically generated so you need to run `npm run build` or `yarn build` or even `pnpm build`, choose whatever you want.
 

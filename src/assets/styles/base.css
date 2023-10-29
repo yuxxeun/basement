@@ -100,23 +100,23 @@
 
 html.lenis {
 	height: auto;
-  }
-  
-  .lenis.lenis-smooth {
+}
+
+.lenis.lenis-smooth {
 	scroll-behavior: auto;
-  }
-  
-  .lenis.lenis-smooth [data-lenis-prevent] {
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
 	overscroll-behavior: contain;
-  }
-  
-  .lenis.lenis-stopped {
+}
+
+.lenis.lenis-stopped {
 	overflow: hidden;
-  }
-  
-  .lenis.lenis-scrolling iframe {
+}
+
+.lenis.lenis-scrolling iframe {
 	pointer-events: none;
-  }
+}
 
 Fragment > a {
 	color: orangered !important;

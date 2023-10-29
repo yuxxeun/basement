@@ -18,7 +18,7 @@ const image = await findImage(post.image)
 		>
 			<Picture
 				src={image}
-				class="w-full absolute grayscale h-auto object-cover mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+				class="w-full absolute grayscale hover:grayscale-0 transition ease-in-out duration-700 h-auto object-cover mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
 				widths={[400, 900]}
 				sizes="(max-width: 900px) 400px, 900px"
 				alt={post.title}
