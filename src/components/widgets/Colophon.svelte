@@ -20,7 +20,7 @@
 
     <!-- About section -->
     <div class="text-left space-y-3">
-        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-white">
+        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-black dark:text-white">
             About
         </span>
         <p class="text-lg">
@@ -39,7 +39,7 @@
 
     <!-- Technology section -->
     <div class="text-left space-y-3">
-        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-white">
+        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-black dark:text-white">
             Technology
         </span>
         <p class="text-lg">
@@ -76,7 +76,7 @@
 
     <!-- Typography section -->
     <div class="text-left space-y-3">
-        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-white">
+        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-black dark:text-white">
             Typography
         </span>
         <p class="text-lg">
@@ -106,7 +106,7 @@
 
     <!-- Styling section -->
     <div class="text-left space-y-3">
-        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-white">
+        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-black dark:text-white">
             Styling
         </span>
         <p class="text-lg">
@@ -117,12 +117,12 @@
 
     <!-- Issue section -->
     <div class="text-left space-y-3">
-        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-white">
+        <span class="font-display lg:text-3xl px-auto text-2xl text-center uppercase text-black dark:text-white">
             Notice an issue?
         </span>
         <p class="text-lg">
             If you spot a typo, encounter a broken feature, or have a recommendation for an improvement, file an issue on this
-            <a href="https://github.com/yuxxeun/basement/issues" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white"> 
+            <a href="https://github.com/yuxxeun/basement/issues" class="border-b border-sky-500 dark:border-b-oranged hover:text-black text-oranged dark:hover:text-white dark:hover:border-b-white"> 
                 repository issue section
             </a>.
         </p>

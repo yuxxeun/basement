@@ -74,6 +74,10 @@
 	}
 }
 
+html, body {
+	background-color: black;
+}
+
 [astro-icon] > * {
 	stroke-width: 1.5;
 }
