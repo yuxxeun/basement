@@ -61,6 +61,7 @@
         "curseur": "^0.0.8",
         "dedent": "^0.7.0",
         "inquirer": "^9.2.0",
+        "jquery": "^3.7.1",
         "moment": "2.29.4",
         "svelte": "3.59.1",
         "vercel": "^30.0.0",

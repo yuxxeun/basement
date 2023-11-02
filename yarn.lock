@@ -6722,6 +6722,11 @@ jiti@^1.19.1:
   resolved "https://registry.npmjs.org/jiti/-/jiti-1.20.0.tgz"
   integrity sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==
 
+jquery@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.npmjs.org/jquery/-/jquery-3.7.1.tgz"
+  integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
@@ -9271,7 +9276,8 @@ property-information@^6.0.0:
 
 protractor@tomyam1/protractor-ts3.7-fix:
   version "5.4.2"
-  resolved "git+ssh://git@github.com/tomyam1/protractor-ts3.7-fix.git#449e85583da7a4755699ebe8dff6ff3fb97e9c72"
+  resolved "git+ssh://git@github.com/tomyam1/protractor-ts3.7-fix.git"
+  integrity sha512-BIwE+gpvIqSmg8Wdy2N2s5Ua5k0IoiEGY2w7DN7jfdNUx3/vMidIllUPJDa1jacBGAtLKQ/yQWjw6lCjxYcdcw==
   dependencies:
     "@types/q" "^0.0.32"
     "@types/selenium-webdriver" "^3.0.0"
