@@ -71,7 +71,7 @@
 @font-face {
 	font-family: 'GeistMono-Medium';
 	src: url('/fonts/Geist/GeistMono-Medium.woff') format('woff');
-	font-weight: 900;
+	font-weight: 500;
 	font-display: swap;
 	font-style: normal;
 }
@@ -79,6 +79,22 @@
 @font-face {
 	font-family: 'GeistMono-Bold';
 	src: url('/fonts/Geist/GeistMono-Bold.woff') format('woff');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geist-Regular';
+	src: url('/fonts/Geist/Geist-Regular.woff') format('woff');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geist-Bold';
+	src: url('/fonts/Geist/Geist-Bold.woff') format('woff');
 	font-weight: 900;
 	font-display: swap;
 	font-style: normal;

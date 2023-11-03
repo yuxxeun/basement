@@ -1,8 +1,8 @@
 ---
 pubDate: "Oct 6 2022"
 title: "Arabella"
-description: "Arabella's got some interstellar-gator skin"
-excerpt: "Arabella's got some interstellar-gator skin"
+description: "Arabella's got some interstellar-gator skin."
+excerpt: "Arabella's got some interstellar-gator skin."
 image: "~/assets/images/arabella.jpg"
 tags: [music]
 ---

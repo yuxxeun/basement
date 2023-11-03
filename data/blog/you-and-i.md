@@ -1,8 +1,8 @@
 ---
 pubDate: "May 28 2023"
 title: "you and i"
-description: "22.05.2023 at 16.50 — 20.10"
-excerpt: "22.05.2023 at 16.50 — 20.10"
+description: "22.05.2023 — 16.50 : 20.10"
+excerpt: "22.05.2023 — 16.50 : 20.10"
 image: "~/assets/images/you-and-i.jpeg"
 tags: [life]
 ---

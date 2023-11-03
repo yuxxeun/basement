@@ -2,7 +2,8 @@
 import { SITE } from '~/config.mjs'
 ---
 
-<span id="headers"
+<span
+	id="headers"
 	class="self-center ml-2 text-2xl text-gray-900 hover:animate-pulse hover:text-oranged dark:hover:text-oranged whitespace-nowrap font-basement hover:ease-in-out hover:duration-150 transition duration-150 ease-in-linear tracking-normal dark:text-white"
 	>{`${SITE.brand}`}
 </span>
@@ -19,9 +20,7 @@ import { SITE } from '~/config.mjs'
 			m.message = 0
 			m.current_length = 0
 			m.fadeBuffer = false
-			m.messages = [
-				'basement',
-			]
+			m.messages = ['basement']
 			setTimeout(m.animateIn, 100)
 		}
 

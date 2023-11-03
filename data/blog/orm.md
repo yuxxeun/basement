@@ -1,8 +1,8 @@
 ---
 pubDate: "November 3 2022"
-title: "ORM: The Abstraction Dilemma"
-description: "And, damn, ORM (and MVC pattern) is so over-engineering"
-excerpt: "And, damn, ORM (and MVC pattern) is so over-engineering"
+title: "The Abstraction Dilemma"
+description: "And, damn, ORM (and MVC pattern) is so over-engineering."
+excerpt: "Damn, ORM (and MVC pattern) is so over-engineering."
 image: "~/assets/images/orm.png"
 tags: ['software engineering']
 ---

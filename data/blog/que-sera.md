@@ -1,8 +1,8 @@
 ---
 pubDate: "january 10 2023"
 title: "Que sera, sera"
-description: "Whatever will be, will be"
-excerpt: "Whatever will be, will be"
+description: "Whatever will be, will be."
+excerpt: "Whatever will be, will be."
 image: "~/assets/images/que-sera.jpg"
 tags: ['life']
 ---

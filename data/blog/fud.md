@@ -1,8 +1,8 @@
 ---
 pubDate: "June 17 2022"
-title: "Fear. Uncertainty. Doubt."
-description: "As title said."
-excerpt: "Setidaknya ada 3 hal yang manusia benci baik sadar maupun tidak sadar."
+title: "FUD"
+description: "Fear. Uncertainty. Doubt."
+excerpt: "Fear. Uncertainty. Doubt."
 image: "~/assets/images/fud.jpg"
 tags: [thoughts]
 ---

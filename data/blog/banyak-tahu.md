@@ -2,7 +2,7 @@
 pubDate: "Sep 25 2022"
 title: "Banyak tahu itu berbahaya"
 description: "Sometimes silence is gold, indeed."
-excerpt: "Sometimes silence is gold, indeed"
+excerpt: "Sometimes silence is gold, indeed."
 image: "~/assets/images/banyak-tahu.jpg"
 tags: [thoughts]
 ---

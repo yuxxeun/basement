@@ -1,8 +1,8 @@
 ---
 pubDate: "Oct 13 2022"
 title: "See you when I see you"
-description: "........."
-excerpt: "........."
+description: "Shall we?"
+excerpt: "Shall we?"
 image: "~/assets/images/see-you.jpg"
 tags: [scenario]
 ---

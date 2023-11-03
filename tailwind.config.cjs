@@ -20,6 +20,8 @@ module.exports = {
 				delight: 'Neue-Montreal-Regular-400, sans-serif',
 				geistMono: 'GeistMono-Medium',
 				geistBold: 'GeistMono-Bold',
+				geistSansBold: 'Geist-Bold',
+				geistSansRegular: 'GeistMono-Regular',
 				grotesk: 'SpaceGrotesk-Medium, sans-serif',
 				roobert: 'Roobert',
 			},
