@@ -18,6 +18,8 @@ module.exports = {
 				inter: 'Inter-Regular, sans-serif',
 				montreal: 'Neue-Montreal-Medium, sans-serif',
 				delight: 'Neue-Montreal-Regular-400, sans-serif',
+				geistMono: 'GeistMono-Medium',
+				geistBold: 'GeistMono-Bold',
 				grotesk: 'SpaceGrotesk-Medium, sans-serif',
 				roobert: 'Roobert',
 			},

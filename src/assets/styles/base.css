@@ -68,6 +68,22 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'GeistMono-Medium';
+	src: url('/fonts/Geist/GeistMono-Medium.woff') format('woff');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeistMono-Bold';
+	src: url('/fonts/Geist/GeistMono-Bold.woff') format('woff');
+	font-weight: 900;
+	font-display: swap;
+	font-style: normal;
+}
+
 @layer components {
 	.btn {
 		@apply inline-flex items-center justify-center rounded border border-transparent py-3 px-6 text-center text-base font-medium leading-snug shadow-lg transition duration-200 ease-in;
