@@ -26,10 +26,9 @@
         <p class="text-lg">
             I designed and built this site myself. 
             <br>
-            This is a home or digital graden (read: <a href="https://maggieappleton.com/garden-history" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
-                A Brief History & Ethos of the Digital Garden
-            </a>) to share the things I explore in both my on-screen and off-screen worlds.
-            All code is open source and available on <a href="https://github.com/yuxxeun/basement/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            This is a home or digital graden (read: <a href="https://maggieappleton.com/garden-history" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:-mt-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
+                A Brief History & Ethos of the Digital Garden</a>) to share the things I explore in both my on-screen and off-screen worlds.
+            All code is open source and available on <a href="https://github.com/yuxxeun/basement/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:-mt-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Github
             </a>. 
             <br><br>
@@ -43,32 +42,36 @@
             Technology
         </span>
         <p class="text-lg">
-            This site is built using <a href="https://astro.build/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            This site is built using <a href="https://astro.build/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Astro
             </a>. 
             <br>
-            Astro handles the content-heavy views (written in MD format), but for more interactive components I use <a href="https://docs.astro.build/en/guides/integrations-guide/svelte//" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            Astro handles the content-heavy views (written in MD format), but for more interactive components I use 
+            <a href="https://docs.astro.build/en/guides/integrations-guide/svelte/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Svelte framework integration
-            </a>.
-            Code is edited using VS Code on a MacBook Pro. 
+            </a> sweetness. Code is edited using VS Code on a MacBook Pro. 
             <br><br>
-            My terminal of choice is <a href="https://warp.dev/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            My terminal of choice is <a href="https://warp.dev/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Warp
-            </a>. My go-to coding font is  <a href="https://github.com/tonsky/FiraCode" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            </a>. 
+            <br>
+            My go-to coding font is <a href="https://github.com/tonsky/FiraCode" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Fira Code
-            </a>.
-            End-to-end tests are written in... wait, i dont run any code-test for it, and I use <a href="https://polyplane.app/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            </a> and <a href="https://vercel.com/font" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
+                Geist
+            </a> from Vercel.
+            E2E testing are written in... wait, i dont run any test for it, and I use <a href="https://polyplane.app/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Polyplane
             </a> to preview devices, test accessibility, and toggle user preferences like (prefers-color-scheme).
             Domain registration via 
-            <a href="https://domainesia.com" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            <a href="https://domainesia.com" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Domainesia
-            </a>, hosting, and deployment are via <a href="https://vercel.com" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            </a>, hosting, and deployment are via <a href="https://vercel.com" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Vercel
-            </a>. Email forwarding is through <a href="https://improvmx.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            </a>. Email forwarding is through <a href="https://improvmx.com/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 ImprovMX
             </a>.
-            To handle data interaction such as on dynamic page i.e: bookmark, secreto and etc, I use <a href="https://supabase.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            To handle data interaction such as on dynamic page i.e: bookmark, secreto and etc, I use <a href="https://supabase.com/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Supabase
             </a> with PostgresSQL dna.
         </p>
@@ -86,19 +89,19 @@
             <br> <br>
             Type inspiration can be found anywhere, from comic art and video games to bodega window displays, but I often return to a handful of resources:
             <br><br>    
-            &bull; <a href="https://bookshop.org/a/97627/9780881792126" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            &bull; <a href="https://bookshop.org/a/97627/9780881792126" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 The Elements of Typographic Style
             </a> by Robert Bringhurst
             <br>   
-            &bull; <a href="https://practicaltypography.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            &bull; <a href="https://practicaltypography.com/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100 items-center">
                 Butterick’s Practical Typography
             </a>
             <br>   
-            &bull; Bethany Heck's <a href="https://fontreviewjournal.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            &bull; Bethany Heck's <a href="https://fontreviewjournal.com/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100 items-center">
                  Font Review Journal
             </a>
             <br>   
-            &bull; <a href="https://fontsinuse.com/" class="border-b dark:border-oranged text-oranged dark:hover:text-white dark:hover:border-b-white">
+            &bull; <a href="https://fontsinuse.com/" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100">
                 Fonts In Use
             </a> 
         </p>
@@ -122,9 +125,9 @@
         </span>
         <p class="text-lg">
             If you spot a typo, encounter a broken feature, or have a recommendation for an improvement, file an issue on this
-            <a href="https://github.com/yuxxeun/basement/issues" class="border-b border-sky-500 dark:border-b-oranged hover:text-black text-oranged dark:hover:text-white dark:hover:border-b-white"> 
-                repository issue section
-            </a>.
+            <a href="https://github.com/yuxxeun/basement/issues" class="text-oranged inline-block after:duration-1000 ease-out after:block after:h-0.5 after:w-full after:origin-bottom-right after:-mt-1 after:scale-x-0 after:bg-oranged after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100"> 
+                repository 
+            </a> issue section.
         </p>
     </div>
 </section>
