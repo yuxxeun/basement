@@ -1,7 +1,7 @@
 # BSMNT.
 
 <p align="center">
-<img src="./public/bsmnt.png" width="100%" height="auto" />
+<img src="./public/bsmnt.jpg" width="100%" height="auto" />
 </p>
 
 Pssst... this project was build with [Astro](https://astro.build), astro serve it fast with Astro's next-gen island architecture.

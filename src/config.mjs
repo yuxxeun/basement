@@ -5,7 +5,7 @@ export const SITE = {
 	basePathname: '/',
 	title: 'yuxxeun.',
 	description: 'redefining robusted typing.',
-	image: 'https://raw.githubusercontent.com/yuxxeun/basement/main/public/bsmnt.png',
+	image: 'https://raw.githubusercontent.com/yuxxeun/basement/main/public/bsmnt.jpg',
 }
 
 export const BLOG = {
