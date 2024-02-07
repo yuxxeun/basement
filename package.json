@@ -54,7 +54,7 @@
         "@astrojs/svelte": "^2.1.0",
         "@astrojs/vercel": "^3.0.0",
         "@studio-freight/lenis": "^1.0.27",
-        "@supabase/supabase-js": "2.38.2",
+        "@supabase/supabase-js": "2.39.3",
         "@vercel/analytics": "^1.0.0",
         "astro-analytics": "^2.5.0",
         "canvas-confetti": "^1.6.0",
