@@ -20,7 +20,7 @@
         "@astrojs/image": "^0.17.0",
         "@astrojs/mdx": "^0.11.4",
         "@astrojs/partytown": "^1.0.1",
-        "@astrojs/rss": "^2.0.0",
+        "@astrojs/rss": "^4.0.0",
         "@astrojs/sitemap": "^1.0.0",
         "@astrojs/tailwind": "^3.0.0-beta.1",
         "@astrolib/analytics": "^0.3.0",
