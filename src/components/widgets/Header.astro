@@ -1,6 +1,5 @@
 ---
 import Logo from '~/components/atoms/Logo.astro'
-import ToggleTheme from '~/components/core/ToggleTheme.astro'
 import ToggleMenu from '~/components/core/ToggleMenu.astro'
 
 import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permalinks'
@@ -16,7 +15,6 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 				<Logo />
 			</a>
 			<div class="flex items-center md:hidden">
-				<!-- <ToggleTheme /> -->
 				<ToggleMenu />
 			</div>
 		</div>
@@ -51,11 +49,6 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 					</a>
 				</li>
 			</ul>
-			<!-- <div class="md:self-center flex items-center mb-4 md:mb-0 ml-2">
-				<div class="hidden items-center md:flex">
-					<ToggleTheme iconClass="w-5 h-5" />
-				</div>
-			</div> -->
 		</nav>
 	</div>
 </header>
