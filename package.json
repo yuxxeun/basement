@@ -27,7 +27,7 @@
         "@astrolib/seo": "^0.6.0",
         "@tailwindcss/typography": "^0.5.7",
         "astro": "^2.6.1",
-        "astro-icon": "^0.7.3",
+        "astro-icon": "^1.0.0",
         "eslint": "^8.23.0",
         "eslint-plugin-astro": "^0.27.0",
         "eslint-plugin-jsx-a11y": "^6.6.1",
