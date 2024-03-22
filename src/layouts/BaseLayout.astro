@@ -5,32 +5,32 @@ import MetaTags from '~/components/core/MetaTags.astro'
 import BasicScripts from '~/components/core/BasicScripts.astro'
 import CustomCursor from '~/components/atoms/CustomCursor.svelte'
 import Loading from '~/components/widgets/Loading.astro'
-
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 inject()
 const { meta = {} } = Astro.props
 ---
 
 <script>
-    let pageTitle = document.title;
-    const attentionMessage = 'I Miss You 🥲';
-    let isPageActive = true;
+	let pageTitle = document.title
+	const attentionMessage = 'I Miss You 🥲'
+	let isPageActive = true
 
-    document.addEventListener('visibilitychange', function () {
-      if (document.hidden) {
-        isPageActive = false;
-        setTimeout(changeTitle, 2000); 
-      } else {
-        isPageActive = true;
-        document.title = pageTitle;
-      }
-    });
+	document.addEventListener('visibilitychange', function () {
+		if (document.hidden) {
+			isPageActive = false
+			setTimeout(changeTitle, 2000)
+		} else {
+			isPageActive = true
+			document.title = pageTitle
+		}
+	})
 
-    function changeTitle() {
-      if (!isPageActive) {
-        document.title = attentionMessage;
-      }
-    }
-  </script>
+	function changeTitle() {
+		if (!isPageActive) {
+			document.title = attentionMessage
+		}
+	}
+</script>
 
 <script>
 	import Lenis from '@studio-freight/lenis'
@@ -53,7 +53,6 @@ const { meta = {} } = Astro.props
 	requestAnimationFrame(raf)
 </script>
 
-
 <html lang="en" class="2xl:text-[20px]">
 	<head>
 		<MetaTags {...meta} />
@@ -62,6 +61,7 @@ const { meta = {} } = Astro.props
 		<Loading />
 		<CustomCursor />
 		<slot />
+		<SpeedInsights/>
 		<BasicScripts />
 		<style is:global>
 			img {
