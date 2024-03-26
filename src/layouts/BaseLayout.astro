@@ -5,7 +5,7 @@ import MetaTags from '~/components/core/MetaTags.astro'
 import BasicScripts from '~/components/core/BasicScripts.astro'
 import CustomCursor from '~/components/atoms/CustomCursor.svelte'
 import Loading from '~/components/widgets/Loading.astro'
-import  SpeedInsights  from "@vercel/speed-insights/astro"
+import SpeedInsights from '@vercel/speed-insights/astro'
 inject()
 const { meta = {} } = Astro.props
 ---
@@ -61,7 +61,7 @@ const { meta = {} } = Astro.props
 		<Loading />
 		<CustomCursor />
 		<slot />
-		<SpeedInsights/>
+		<SpeedInsights />
 		<BasicScripts />
 		<style is:global>
 			img {

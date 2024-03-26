@@ -24,11 +24,11 @@ export const BLOG = {
 
 	category: {
 		disabled: false,
-		pathname: '', // set empty to change from /category/some-category to /some-category
+		pathname: 'category', 
 	},
 
 	tag: {
 		disabled: false,
-		pathname: 'tag', // set empty to change from /tag/some-tag to /some-tag
+		pathname: 'tag', 
 	},
 }
