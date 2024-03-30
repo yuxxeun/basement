@@ -20,7 +20,7 @@ export default defineConfig({
 		dev: true,
 		hydratable: true,
 	},
-	output: "hybrid",
+	output: 'hybrid',
 	adapter: vercel({
 		webAnalytics: { enabled: true },
 	}),

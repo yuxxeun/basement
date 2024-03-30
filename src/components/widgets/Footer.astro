@@ -1,5 +1,6 @@
 ---
 import { Icon } from 'astro-icon'
+import IpLocation from '../atoms/IpLocation.svelte'
 const quotes = [
 	'The light that comes from downstairs',
 	'making cool shit that performs',
@@ -11,7 +12,7 @@ const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
 
 <footer class="border-t font-geistMono border-black dark:border-white">
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
-		<div class="md:flex md:items-center md:justify-between py-4 md:py-8">
+		<div class="md:flex md:space-y-0 space-y-2.5 md:items-center md:justify-between py-4 md:py-8">
 			<ul class="flex mb-0 md:order-1 -ml-2 md:ml-4 md:mb-0">
 				<li>
 					<a
@@ -59,7 +60,9 @@ const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
 					</a>
 				</li>
 			</ul>
-			<div id="messenger" class="text-md uppercase tracking-wide text-black mr-4 dark:text-white"></div>
+			<div class="lg:text-md text-sm tracking-wide text-black mr-4 dark:text-white">
+				<IpLocation client:load/>	
+			</div>
 		</div>
 	</div>
 </footer>

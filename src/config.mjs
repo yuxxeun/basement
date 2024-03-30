@@ -24,11 +24,11 @@ export const BLOG = {
 
 	category: {
 		disabled: false,
-		pathname: 'category', 
+		pathname: 'category',
 	},
 
 	tag: {
 		disabled: false,
-		pathname: 'tag', 
+		pathname: 'tag',
 	},
 }
