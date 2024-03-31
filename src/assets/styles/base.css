@@ -172,6 +172,10 @@ article {
 	cursor: revert-layers;
 }
 
+img {
+	content-visibility: auto;
+}
+
 @keyframes wave {
 	0% {
 		transform: scaleX(1);
