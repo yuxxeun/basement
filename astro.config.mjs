@@ -8,7 +8,7 @@ import partytown from '@astrojs/partytown'
 import prefetch from '@astrojs/prefetch'
 import svelte from '@astrojs/svelte'
 import { vitePreprocess } from '@astrojs/svelte'
-import vercel from '@astrojs/vercel/serverless'
+import vercel from '@astrojs/vercel/static'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://astro.build/config
@@ -20,10 +20,8 @@ export default defineConfig({
 		dev: true,
 		hydratable: true,
 	},
-	output: 'server',
-	adapter: vercel({
-		webAnalytics: { enabled: true },
-	}),
+	output: 'static',
+	adapter: vercel(),
 	integrations: [
 		tailwind({
 			config: {
