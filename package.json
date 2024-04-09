@@ -29,7 +29,7 @@
         "astro": "^2.6.1",
         "astro-icon": "^0.7.3",
         "eslint": "^8.23.0",
-        "eslint-plugin-astro": "^0.27.0",
+        "eslint-plugin-astro": "^0.34.0",
         "eslint-plugin-jsx-a11y": "^6.6.1",
         "husky": "^8.0.3",
         "limax": "^v2.1.0",
